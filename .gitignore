@@ -11,6 +11,10 @@
 # production
 /build
 
+# allure
+/allure-results
+/allure-report
+
 # misc
 .vscode
 .DS_Store
