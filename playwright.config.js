@@ -8,6 +8,7 @@ const config = {
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
   },
+  retries: 0, // count of retries of failing test
 };
 
 export default config;
