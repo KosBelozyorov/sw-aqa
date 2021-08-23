@@ -12,7 +12,7 @@ const {
   SIDE_MENU_LOGOUT,
 } = require('../../constants');
 
-class SideMenu {
+class SideMenuPage {
   constructor(page) {
     this.page = page;
   }
@@ -118,5 +118,5 @@ class SideMenu {
 }
 
 module.exports = {
-  SideMenu,
+  SideMenuPage,
 };

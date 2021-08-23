@@ -5,12 +5,16 @@ const config = {
     channel: 'chromium',
     headless: false,
     viewport: { width: 1920, height: 1080 },
+    launchOptions: {
+      slowMo: 0,
+    },
     screenshot: 'only-on-failure',
-    video: 'on-first-retry',
+    video: 'retry-with-video',
     trace: 'retain-on-failure',
   },
-  retries: 0, // count of retries of failing test
-  reporter: [['line'], ['experimental-allure-playwright']],
+  testMatch: ['*.test.js'],
+  retries: 1, // count of retries of failing test
+  reporter: [['list'], ['experimental-allure-playwright']],
 };
 
 module.exports = config;
