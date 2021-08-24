@@ -16,6 +16,15 @@ class LoginFragment {
     await this.page.fill(LOGIN_FORM_PASSWORD, password);
     await this.page.click(LOGIN_FORM_BUTTON);
   }
+
+  async gotoLoginPage() {
+    // TODO: should be locate in base PAGE
+    await this.page.waitForLoadState('networkidle');
+
+    const pageUrl = await this.page.url();
+
+    return pageUrl;
+  }
 }
 
 module.exports = {

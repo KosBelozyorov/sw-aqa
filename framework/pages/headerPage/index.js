@@ -5,6 +5,7 @@ const {
   USER_MENU,
   USER_MENU_PROFILE,
   USER_MENU_LOGOUT,
+  USER_MENU_DROPDOWN,
 } = require('../../constants');
 
 class HeaderPage {
@@ -30,14 +31,25 @@ class HeaderPage {
     await this.page.click(USER_MENU);
   }
 
+  async isUserMenuVisible() {
+    const result = await this.page.isVisible(USER_MENU_DROPDOWN);
+
+    return result;
+  }
+
   async gotoUserProfilePage() {
-    await this.page.isVisible('.dropdown-user');
-    await this.page.click(USER_MENU_PROFILE);
+    await Promise.all([
+      await this.page.isVisible(USER_MENU_DROPDOWN),
+      await this.page.click(USER_MENU_PROFILE),
+      await this.page.waitForLoadState('networkidle'),
+    ]);
   }
 
   async logout() {
-    await this.page.isVisible('.dropdown-user');
-    await this.page.click(USER_MENU_LOGOUT);
+    await Promise.all([
+      await this.page.isVisible(USER_MENU_DROPDOWN),
+      await this.page.click(USER_MENU_LOGOUT),
+    ]);
   }
 }
 

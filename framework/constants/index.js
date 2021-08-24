@@ -1,5 +1,6 @@
 const loginPageConstants = require('./loginPageConstants');
 const commonConstants = require('./common');
+const headerPageConstants = require('./headerPageConstants');
 const mainPageConstants = require('./mainPageConstants');
 const catalogPageConstants = require('./catalogPageConstants');
 const ordersPageConstants = require('./ordersPageConstants');
@@ -15,6 +16,7 @@ const productPageConstants = require('./productPageConstants');
 module.exports = {
   ...loginPageConstants,
   ...commonConstants,
+  ...headerPageConstants,
   ...mainPageConstants,
   ...catalogPageConstants,
   ...ordersPageConstants,

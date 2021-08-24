@@ -12,7 +12,7 @@ const config = {
     video: 'retry-with-video',
     trace: 'retain-on-failure',
   },
-  testMatch: ['*.test.js'],
+  testMatch: ['/test/*.test.js'],
   retries: 1, // count of retries of failing test
   reporter: [['list'], ['experimental-allure-playwright']],
 };

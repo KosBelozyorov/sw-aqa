@@ -1,6 +1,8 @@
 const loginPage = require('./loginPage');
+const headerPage = require('./headerPage');
 const mainPage = require('./mainPage');
-const sideMenu = require('./sideMenu');
+const sideMenuPage = require('./sideMenuPage');
+const cartPage = require('./cartPage');
 const catalogPage = require('./catalogPage');
 const ordersPage = require('./ordersPage');
 const refundsPage = require('./refundsPage');
@@ -15,8 +17,10 @@ const checkoutPage = require('./checkoutPage');
 
 module.exports = {
   ...loginPage,
+  ...headerPage,
   ...mainPage,
-  ...sideMenu,
+  ...sideMenuPage,
+  ...cartPage,
   ...catalogPage,
   ...ordersPage,
   ...refundsPage,

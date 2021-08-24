@@ -4,8 +4,6 @@ const {
   ADMIN_PASSWORD,
   USER_EMAIL,
   USER_PASSWORD,
-  SEARCH_KEY_WORD,
-  SEARCH_CATEGORY,
 } = require('../../constants');
 
 class LoginPage {
@@ -22,6 +20,12 @@ class LoginPage {
   async loginAsAdmin() {
     // TODO: need refactoring
     await this.LoginFragment.login(ADMIN_EMAIL, ADMIN_PASSWORD);
+  }
+
+  async gotoLoginPage() {
+    const result = await this.LoginFragment.gotoLoginPage();
+
+    return result;
   }
 }
 

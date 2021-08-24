@@ -5,6 +5,7 @@ const SELECT_LANGUAGE_RU = 'a:has-text("RU")';
 const USER_MENU = 'a.dropdown-toggle.profile-pic';
 const USER_MENU_PROFILE = '.dropdown-user li:nth-child(3) a';
 const USER_MENU_LOGOUT = '.dropdown-user li:nth-child(5) a';
+const USER_MENU_DROPDOWN = 'ul.dropdown-menu.dropdown-user';
 
 module.exports = {
   SELECT_LANGUAGE_DROPDOWN_BUTTON,
@@ -13,4 +14,5 @@ module.exports = {
   USER_MENU,
   USER_MENU_PROFILE,
   USER_MENU_LOGOUT,
+  USER_MENU_DROPDOWN,
 };

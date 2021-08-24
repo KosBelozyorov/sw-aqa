@@ -15,9 +15,14 @@ class CheckoutPage {
   }
 
   async getCheckout() {
-    await this.page.waitForSelector(CHECKOUT_BUTTON);
-    await this.page.click(CHECKOUT_BUTTON);
-    await this.page.waitForLoadState('networkidle');
+    await Promise.all([
+      await this.page.waitForSelector(CHECKOUT_BUTTON),
+      await this.page.click(CHECKOUT_BUTTON),
+      await this.page.waitForLoadState('networkidle'),
+    ]);
+    // await this.page.waitForSelector(CHECKOUT_BUTTON);
+    // await this.page.click(CHECKOUT_BUTTON);
+    // await this.page.waitForLoadState('networkidle');
 
     const orderUrl = await this.page.url();
 

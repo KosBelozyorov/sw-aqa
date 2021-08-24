@@ -22,23 +22,22 @@ class ProductPage {
     await this.page.click('.dl-good-details + .cart-control-wrapper .add-cart');
   }
 
-  async clickOnCartButton() {
-    await this.page.click('.header-btn button');
-  }
-
   async checkProductInCart() {
     // await this.page.click('.header-btn button');
-    let productInCart = await this.page.innerText(
+    const productInCart = await this.page.innerText(
       'span.small.text-muted.ng-binding',
     );
+    // eslint-disable-next-line no-console
     console.log('productInCart: ', productInCart);
 
-    let product = await this.page.innerText(
+    const product = await this.page.innerText(
       '.dl-horizontal.dl-good-details > dt:first-child + dd',
     );
+    // eslint-disable-next-line no-console
     console.log('product: ', product);
 
-    let result = product === productInCart ? true : false;
+    let result = '';
+    result = product === productInCart ? true : result;
 
     return result;
   }
