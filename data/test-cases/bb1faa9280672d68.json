@@ -1,12 +1,12 @@
 {
-  "uid" : "814a3c57aa3fa5ad",
-  "name" : "Case #3 Using search on main page",
-  "fullName" : "Case #3 Using search on main page",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #3 Using search on main page",
+  "uid" : "bb1faa9280672d68",
+  "name" : "case #5 Using search on main page by product code",
+  "fullName" : "case #5 Using search on main page by product code",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #5 Using search on main page by product code",
   "time" : {
-    "start" : 1629897167650,
-    "stop" : 1629897175216,
-    "duration" : 7566
+    "start" : 1629900175387,
+    "stop" : 1629900182341,
+    "duration" : 6954
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,39 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "38b2b034842f5f05",
+      "uid" : "67230f584ab5398",
       "name" : "stdout",
-      "source" : "38b2b034842f5f05.txt",
+      "source" : "67230f584ab5398.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "5e9cd8f13834b276",
+      "uid" : "3f71784f81909197",
       "name" : "stdout",
-      "source" : "5e9cd8f13834b276.txt",
+      "source" : "3f71784f81909197.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "621cc547e4846083",
+      "uid" : "415a2f7f1a34604f",
       "name" : "stdout",
-      "source" : "621cc547e4846083.txt",
+      "source" : "415a2f7f1a34604f.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "76ced035ffec90bd",
+      "name" : "stdout",
+      "source" : "76ced035ffec90bd.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "b6755c30a1800cf8",
+      "name" : "stdout",
+      "source" : "b6755c30a1800cf8.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 5,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -67,6 +79,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "814a3c57aa3fa5ad.json",
+  "source" : "bb1faa9280672d68.json",
   "parameterValues" : [ ]
 }

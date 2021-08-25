@@ -1,12 +1,12 @@
 {
-  "uid" : "227666f37de6791",
-  "name" : "case #6 Using search on main page by product description",
-  "fullName" : "case #6 Using search on main page by product description",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #6 Using search on main page by product description",
+  "uid" : "eb49cf319e5bc078",
+  "name" : "case #7 Using search on main page by product description",
+  "fullName" : "case #7 Using search on main page by product description",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #7 Using search on main page by product description",
   "time" : {
-    "start" : 1629897194748,
-    "stop" : 1629897201892,
-    "duration" : 7144
+    "start" : 1629900189660,
+    "stop" : 1629900196158,
+    "duration" : 6498
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,39 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "28c9870e32f61ff3",
+      "uid" : "b3de8dd33f0fbe19",
       "name" : "stdout",
-      "source" : "28c9870e32f61ff3.txt",
+      "source" : "b3de8dd33f0fbe19.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "c39aff9923104fca",
+      "uid" : "f8b160fa5756831c",
       "name" : "stdout",
-      "source" : "c39aff9923104fca.txt",
+      "source" : "f8b160fa5756831c.txt",
       "type" : "text/plain",
-      "size" : 34
+      "size" : 33
     }, {
-      "uid" : "3c4ccb953b2efe1d",
+      "uid" : "cf48fdfe4b813f21",
       "name" : "stdout",
-      "source" : "3c4ccb953b2efe1d.txt",
-      "type" : "text/plain",
-      "size" : 30
-    }, {
-      "uid" : "ba4f05362b1274c0",
-      "name" : "stdout",
-      "source" : "ba4f05362b1274c0.txt",
-      "type" : "text/plain",
-      "size" : 34
-    }, {
-      "uid" : "7e59112d60d35dbe",
-      "name" : "stdout",
-      "source" : "7e59112d60d35dbe.txt",
+      "source" : "cf48fdfe4b813f21.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 5,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -79,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "227666f37de6791.json",
+  "source" : "eb49cf319e5bc078.json",
   "parameterValues" : [ ]
 }

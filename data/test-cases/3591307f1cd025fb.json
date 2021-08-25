@@ -1,12 +1,12 @@
 {
-  "uid" : "fbeb1a26b89cd9fb",
+  "uid" : "3591307f1cd025fb",
   "name" : "case #8 Using search on main page by product description",
   "fullName" : "case #8 Using search on main page by product description",
   "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #8 Using search on main page by product description",
   "time" : {
-    "start" : 1629897208965,
-    "stop" : 1629897215837,
-    "duration" : 6872
+    "start" : 1629900196159,
+    "stop" : 1629900203118,
+    "duration" : 6959
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a2d6ca6a885d4a8e",
+      "uid" : "a22571738f2f375d",
       "name" : "stdout",
-      "source" : "a2d6ca6a885d4a8e.txt",
+      "source" : "a22571738f2f375d.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "6f94f3e43356193",
+      "uid" : "498b012309c9e799",
       "name" : "stdout",
-      "source" : "6f94f3e43356193.txt",
+      "source" : "498b012309c9e799.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "6fc31d44ffa59be9",
+      "uid" : "2b7721cdfea60914",
       "name" : "stdout",
-      "source" : "6fc31d44ffa59be9.txt",
+      "source" : "2b7721cdfea60914.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
@@ -67,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fbeb1a26b89cd9fb.json",
+  "source" : "3591307f1cd025fb.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "b5b76e5891392639",
+  "uid" : "9b04272b1cc34746",
   "name" : "Case #1 Login as user and logout",
   "fullName" : "Case #1 Login as user and logout",
   "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #1 Login as user and logout",
   "time" : {
-    "start" : 1629897146744,
-    "stop" : 1629897158828,
-    "duration" : 12084
+    "start" : 1629900136602,
+    "stop" : 1629900147548,
+    "duration" : 10946
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a1ec0f7fd728a3b",
+      "uid" : "50f56d060066e45c",
       "name" : "stdout",
-      "source" : "a1ec0f7fd728a3b.txt",
+      "source" : "50f56d060066e45c.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b5b76e5891392639.json",
+  "source" : "9b04272b1cc34746.json",
   "parameterValues" : [ ]
 }

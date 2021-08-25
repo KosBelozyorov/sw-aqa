@@ -1,12 +1,12 @@
 {
-  "uid" : "131c8c54c0c14c4f",
-  "name" : "Case #1 Click on User menu",
-  "fullName" : "Case #1 Click on User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
+  "uid" : "8d3f06438eaf994d",
+  "name" : "Case #2 Using search on main page",
+  "fullName" : "Case #2 Using search on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #2 Using search on main page",
   "time" : {
-    "start" : 1629897146373,
-    "stop" : 1629897155376,
-    "duration" : 9003
+    "start" : 1629900147549,
+    "stop" : 1629900156035,
+    "duration" : 8486
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "868d60118ab879e4",
+      "uid" : "9e9121041afa4f9f",
       "name" : "stdout",
-      "source" : "868d60118ab879e4.txt",
+      "source" : "9e9121041afa4f9f.txt",
       "type" : "text/plain",
       "size" : 18
+    }, {
+      "uid" : "5eaecc0206bab681",
+      "name" : "stdout",
+      "source" : "5eaecc0206bab681.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "273a80691e985cc7",
+      "name" : "stdout",
+      "source" : "273a80691e985cc7.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -37,10 +49,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/header.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -55,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "131c8c54c0c14c4f.json",
+  "source" : "8d3f06438eaf994d.json",
   "parameterValues" : [ ]
 }

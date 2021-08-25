@@ -1,12 +1,12 @@
 {
-  "uid" : "ec0a399d6d11eec1",
-  "name" : "case #5 Using search on main page by product code",
-  "fullName" : "case #5 Using search on main page by product code",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #5 Using search on main page by product code",
+  "uid" : "192809e51258fc4b",
+  "name" : "Case #3 Using search on main page",
+  "fullName" : "Case #3 Using search on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #3 Using search on main page",
   "time" : {
-    "start" : 1629897187854,
-    "stop" : 1629897194748,
-    "duration" : 6894
+    "start" : 1629900156034,
+    "stop" : 1629900163496,
+    "duration" : 7462
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,39 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "399f13e80defc1e9",
+      "uid" : "42a066a326c50085",
       "name" : "stdout",
-      "source" : "399f13e80defc1e9.txt",
+      "source" : "42a066a326c50085.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "98b969f657588641",
+      "uid" : "ba8a0845877dea84",
       "name" : "stdout",
-      "source" : "98b969f657588641.txt",
+      "source" : "ba8a0845877dea84.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "d34593ffccb45d37",
+      "uid" : "f7196d0bde9e1192",
       "name" : "stdout",
-      "source" : "d34593ffccb45d37.txt",
-      "type" : "text/plain",
-      "size" : 30
-    }, {
-      "uid" : "24c30b643c958dca",
-      "name" : "stdout",
-      "source" : "24c30b643c958dca.txt",
-      "type" : "text/plain",
-      "size" : 33
-    }, {
-      "uid" : "adec62583518327f",
-      "name" : "stdout",
-      "source" : "adec62583518327f.txt",
+      "source" : "f7196d0bde9e1192.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 5,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -79,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ec0a399d6d11eec1.json",
+  "source" : "192809e51258fc4b.json",
   "parameterValues" : [ ]
 }

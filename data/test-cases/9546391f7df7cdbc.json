@@ -1,12 +1,12 @@
 {
-  "uid" : "8b2d32dc815826d7",
-  "name" : "Case #2 Go to Profile page from User menu",
-  "fullName" : "Case #2 Go to Profile page from User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #2 Go to Profile page from User menu",
+  "uid" : "9546391f7df7cdbc",
+  "name" : "Case #10 Change language (RU) on main page",
+  "fullName" : "Case #10 Change language (RU) on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #10 Change language (RU) on main page",
   "time" : {
-    "start" : 1629897155377,
-    "stop" : 1629897164508,
-    "duration" : 9131
+    "start" : 1629900210378,
+    "stop" : 1629900217648,
+    "duration" : 7270
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1f7ad900cd139a38",
+      "uid" : "d52b32feccb6528",
       "name" : "stdout",
-      "source" : "1f7ad900cd139a38.txt",
+      "source" : "d52b32feccb6528.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "ba65dbd34d00bfe5",
+      "uid" : "f3bf51b72dad9d70",
       "name" : "stdout",
-      "source" : "ba65dbd34d00bfe5.txt",
+      "source" : "f3bf51b72dad9d70.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -43,10 +43,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/header.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8b2d32dc815826d7.json",
+  "source" : "9546391f7df7cdbc.json",
   "parameterValues" : [ ]
 }

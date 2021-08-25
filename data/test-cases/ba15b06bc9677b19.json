@@ -1,12 +1,12 @@
 {
-  "uid" : "4957c6150ab62f9e",
-  "name" : "case #7 Using search on main page by product description",
-  "fullName" : "case #7 Using search on main page by product description",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #7 Using search on main page by product description",
+  "uid" : "ba15b06bc9677b19",
+  "name" : "case #14 Remove all products from the cart",
+  "fullName" : "case #14 Remove all products from the cart",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #14 Remove all products from the cart",
   "time" : {
-    "start" : 1629897201892,
-    "stop" : 1629897208965,
-    "duration" : 7073
+    "start" : 1629900232685,
+    "stop" : 1629900251288,
+    "duration" : 18603
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7446cac3ef268f9d",
+      "uid" : "2703908b628a9f74",
       "name" : "stdout",
-      "source" : "7446cac3ef268f9d.txt",
+      "source" : "2703908b628a9f74.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "2264b569723f627",
+      "uid" : "cf7b66684a9d3140",
       "name" : "stdout",
-      "source" : "2264b569723f627.txt",
+      "source" : "cf7b66684a9d3140.txt",
       "type" : "text/plain",
-      "size" : 33
+      "size" : 34
     }, {
-      "uid" : "c467e17d9973b585",
+      "uid" : "53fcb24dd2bb5021",
       "name" : "stdout",
-      "source" : "c467e17d9973b585.txt",
+      "source" : "53fcb24dd2bb5021.txt",
       "type" : "text/plain",
       "size" : 30
+    }, {
+      "uid" : "e66e24650b18e6ed",
+      "name" : "stdout",
+      "source" : "e66e24650b18e6ed.txt",
+      "type" : "text/plain",
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -67,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4957c6150ab62f9e.json",
+  "source" : "ba15b06bc9677b19.json",
   "parameterValues" : [ ]
 }

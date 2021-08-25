@@ -1,12 +1,12 @@
 {
-  "uid" : "548628c7dce7129a",
-  "name" : "case #4 Using search on main page",
-  "fullName" : "case #4 Using search on main page",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #4 Using search on main page",
+  "uid" : "8edcbf453f876e78",
+  "name" : "case #15 Remove product from the cart",
+  "fullName" : "case #15 Remove product from the cart",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #15 Remove product from the cart",
   "time" : {
-    "start" : 1629897175216,
-    "stop" : 1629897187853,
-    "duration" : 12637
+    "start" : 1629900251287,
+    "stop" : 1629900269333,
+    "duration" : 18046
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,39 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f7bdb73217483719",
+      "uid" : "ea5614e6c482771a",
       "name" : "stdout",
-      "source" : "f7bdb73217483719.txt",
+      "source" : "ea5614e6c482771a.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "d8c74dc2bb7f11cb",
+      "uid" : "9e35a36367591f25",
       "name" : "stdout",
-      "source" : "d8c74dc2bb7f11cb.txt",
+      "source" : "9e35a36367591f25.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "fa81d9275bed9db4",
+      "uid" : "de2453f45d84767c",
       "name" : "stdout",
-      "source" : "fa81d9275bed9db4.txt",
+      "source" : "de2453f45d84767c.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "82ce62dc8c5152fe",
+      "uid" : "6f8cc71655adc93c",
       "name" : "stdout",
-      "source" : "82ce62dc8c5152fe.txt",
+      "source" : "6f8cc71655adc93c.txt",
       "type" : "text/plain",
-      "size" : 34
-    }, {
-      "uid" : "1462914cda4d6031",
-      "name" : "stdout",
-      "source" : "1462914cda4d6031.txt",
-      "type" : "text/plain",
-      "size" : 30
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 5,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -79,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "548628c7dce7129a.json",
+  "source" : "8edcbf453f876e78.json",
   "parameterValues" : [ ]
 }

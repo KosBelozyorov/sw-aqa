@@ -1,12 +1,12 @@
 {
-  "uid" : "8fe277b277d1ed29",
+  "uid" : "4f5fd154d4ae56b0",
   "name" : "Case #3 Logout from User menu",
   "fullName" : "Case #3 Logout from User menu",
   "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #3 Logout from User menu",
   "time" : {
-    "start" : 1629897164508,
-    "stop" : 1629897173601,
-    "duration" : 9093
+    "start" : 1629900153032,
+    "stop" : 1629900161743,
+    "duration" : 8711
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "559f17fa613a3b6f",
+      "uid" : "8088a520f57b8ac5",
       "name" : "stdout",
-      "source" : "559f17fa613a3b6f.txt",
+      "source" : "8088a520f57b8ac5.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8fe277b277d1ed29.json",
+  "source" : "4f5fd154d4ae56b0.json",
   "parameterValues" : [ ]
 }

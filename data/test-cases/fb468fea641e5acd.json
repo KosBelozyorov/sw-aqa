@@ -1,0 +1,66 @@
+{
+  "uid" : "fb468fea641e5acd",
+  "name" : "Case #9 Change language (UA) on main page",
+  "fullName" : "Case #9 Change language (UA) on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #9 Change language (UA) on main page",
+  "time" : {
+    "start" : 1629900203117,
+    "stop" : 1629900210377,
+    "duration" : 7260
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81f0f95baaa57e99",
+      "name" : "stdout",
+      "source" : "81f0f95baaa57e99.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "e7ffdba7e7b71421",
+      "name" : "stdout",
+      "source" : "e7ffdba7e7b71421.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/Smoke/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb468fea641e5acd.json",
+  "parameterValues" : [ ]
+}
