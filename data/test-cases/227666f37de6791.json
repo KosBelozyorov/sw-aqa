@@ -1,12 +1,12 @@
 {
-  "uid" : "f92cfe515392306d",
-  "name" : "case #14 Remove all products from the cart",
-  "fullName" : "case #14 Remove all products from the cart",
-  "historyId" : " test/main.test.js Suite of Base tests: case #14 Remove all products from the cart",
+  "uid" : "227666f37de6791",
+  "name" : "case #6 Using search on main page by product description",
+  "fullName" : "case #6 Using search on main page by product description",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #6 Using search on main page by product description",
   "time" : {
-    "start" : 1629871928455,
-    "stop" : 1629871946534,
-    "duration" : 18079
+    "start" : 1629897194748,
+    "stop" : 1629897201892,
+    "duration" : 7144
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,33 +16,39 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "66e9eeb2c5a46f76",
+      "uid" : "28c9870e32f61ff3",
       "name" : "stdout",
-      "source" : "66e9eeb2c5a46f76.txt",
+      "source" : "28c9870e32f61ff3.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "479164e87dbdb183",
+      "uid" : "c39aff9923104fca",
       "name" : "stdout",
-      "source" : "479164e87dbdb183.txt",
+      "source" : "c39aff9923104fca.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "d7815dd38a9437ce",
+      "uid" : "3c4ccb953b2efe1d",
       "name" : "stdout",
-      "source" : "d7815dd38a9437ce.txt",
+      "source" : "3c4ccb953b2efe1d.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "cd90daca455ab67a",
+      "uid" : "ba4f05362b1274c0",
       "name" : "stdout",
-      "source" : "cd90daca455ab67a.txt",
+      "source" : "ba4f05362b1274c0.txt",
       "type" : "text/plain",
-      "size" : 18
+      "size" : 34
+    }, {
+      "uid" : "7e59112d60d35dbe",
+      "name" : "stdout",
+      "source" : "7e59112d60d35dbe.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 4,
+    "attachmentsCount" : 5,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -55,7 +61,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -73,6 +79,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f92cfe515392306d.json",
+  "source" : "227666f37de6791.json",
   "parameterValues" : [ ]
 }

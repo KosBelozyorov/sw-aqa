@@ -1,12 +1,12 @@
 {
-  "uid" : "441450fc9c7b2382",
-  "name" : "case #8 Using search on main page by product description",
-  "fullName" : "case #8 Using search on main page by product description",
-  "historyId" : " test/main.test.js Suite of Base tests: case #8 Using search on main page by product description",
+  "uid" : "7568f97b06dd4ad6",
+  "name" : "case #15 Remove product from the cart",
+  "fullName" : "case #15 Remove product from the cart",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #15 Remove product from the cart",
   "time" : {
-    "start" : 1629871891443,
-    "stop" : 1629871898535,
-    "duration" : 7092
+    "start" : 1629897261109,
+    "stop" : 1629897279426,
+    "duration" : 18317
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "794d54f4f8f655aa",
+      "uid" : "6886c821c9274914",
       "name" : "stdout",
-      "source" : "794d54f4f8f655aa.txt",
+      "source" : "6886c821c9274914.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "d3a11b0244dc7f9d",
+      "uid" : "6391055869d2eb9e",
       "name" : "stdout",
-      "source" : "d3a11b0244dc7f9d.txt",
+      "source" : "6391055869d2eb9e.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "2f6a1f6ff89c0844",
+      "uid" : "268d4867412782ec",
       "name" : "stdout",
-      "source" : "2f6a1f6ff89c0844.txt",
+      "source" : "268d4867412782ec.txt",
       "type" : "text/plain",
       "size" : 30
+    }, {
+      "uid" : "df52695384161f32",
+      "name" : "stdout",
+      "source" : "df52695384161f32.txt",
+      "type" : "text/plain",
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -49,7 +55,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -67,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "441450fc9c7b2382.json",
+  "source" : "7568f97b06dd4ad6.json",
   "parameterValues" : [ ]
 }

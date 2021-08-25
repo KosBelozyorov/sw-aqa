@@ -1,12 +1,12 @@
 {
-  "uid" : "50b7a8a83ea0978b",
-  "name" : "Case #2 Using search on main page",
-  "fullName" : "Case #2 Using search on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #2 Using search on main page",
+  "uid" : "36b5a2bce4a11d09",
+  "name" : "case #14 Remove all products from the cart",
+  "fullName" : "case #14 Remove all products from the cart",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #14 Remove all products from the cart",
   "time" : {
-    "start" : 1629871842508,
-    "stop" : 1629871851428,
-    "duration" : 8920
+    "start" : 1629897246207,
+    "stop" : 1629897261110,
+    "duration" : 14903
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "54d8426f8773f779",
+      "uid" : "5712b5547b824c2f",
       "name" : "stdout",
-      "source" : "54d8426f8773f779.txt",
+      "source" : "5712b5547b824c2f.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "4bad94ecdb654efa",
+      "uid" : "9f8a25456e2ca531",
       "name" : "stdout",
-      "source" : "4bad94ecdb654efa.txt",
+      "source" : "9f8a25456e2ca531.txt",
       "type" : "text/plain",
-      "size" : 33
+      "size" : 34
     }, {
-      "uid" : "563673d4c6e17af0",
+      "uid" : "8ad07392557b0022",
       "name" : "stdout",
-      "source" : "563673d4c6e17af0.txt",
+      "source" : "8ad07392557b0022.txt",
       "type" : "text/plain",
       "size" : 30
+    }, {
+      "uid" : "177613e3f5ce2ee1",
+      "name" : "stdout",
+      "source" : "177613e3f5ce2ee1.txt",
+      "type" : "text/plain",
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -49,7 +55,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -67,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "50b7a8a83ea0978b.json",
+  "source" : "36b5a2bce4a11d09.json",
   "parameterValues" : [ ]
 }

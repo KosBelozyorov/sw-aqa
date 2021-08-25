@@ -1,12 +1,12 @@
 {
-  "uid" : "e4723e5d7dde8a71",
-  "name" : "Case #3 Logout from User menu",
-  "fullName" : "Case #3 Logout from User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #3 Logout from User menu",
+  "uid" : "131c8c54c0c14c4f",
+  "name" : "Case #1 Click on User menu",
+  "fullName" : "Case #1 Click on User menu",
+  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
   "time" : {
-    "start" : 1629875916900,
-    "stop" : 1629875923863,
-    "duration" : 6963
+    "start" : 1629897146373,
+    "stop" : 1629897155376,
+    "duration" : 9003
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fd11511db300702d",
+      "uid" : "868d60118ab879e4",
       "name" : "stdout",
-      "source" : "fd11511db300702d.txt",
+      "source" : "868d60118ab879e4.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e4723e5d7dde8a71.json",
+  "source" : "131c8c54c0c14c4f.json",
   "parameterValues" : [ ]
 }

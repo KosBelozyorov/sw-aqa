@@ -1,12 +1,12 @@
 {
-  "uid" : "2825befd3f37e16b",
-  "name" : "Case #1 Login as user and logout",
-  "fullName" : "Case #1 Login as user and logout",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #1 Login as user and logout",
+  "uid" : "4957c6150ab62f9e",
+  "name" : "case #7 Using search on main page by product description",
+  "fullName" : "case #7 Using search on main page by product description",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #7 Using search on main page by product description",
   "time" : {
-    "start" : 1629871831039,
-    "stop" : 1629871842508,
-    "duration" : 11469
+    "start" : 1629897201892,
+    "stop" : 1629897208965,
+    "duration" : 7073
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "151ff397dfdbd9cf",
+      "uid" : "7446cac3ef268f9d",
       "name" : "stdout",
-      "source" : "151ff397dfdbd9cf.txt",
+      "source" : "7446cac3ef268f9d.txt",
       "type" : "text/plain",
       "size" : 18
+    }, {
+      "uid" : "2264b569723f627",
+      "name" : "stdout",
+      "source" : "2264b569723f627.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "c467e17d9973b585",
+      "name" : "stdout",
+      "source" : "c467e17d9973b585.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -37,7 +49,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -55,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2825befd3f37e16b.json",
+  "source" : "4957c6150ab62f9e.json",
   "parameterValues" : [ ]
 }

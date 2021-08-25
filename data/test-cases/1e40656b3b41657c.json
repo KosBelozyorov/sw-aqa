@@ -1,12 +1,12 @@
 {
-  "uid" : "aeeae04e01f532a7",
-  "name" : "Case #3 Logout from User menu",
-  "fullName" : "Case #3 Logout from User menu",
-  "historyId" : " test/header.test.js Suite of the Heder menu tests: Case #3 Logout from User menu",
+  "uid" : "1e40656b3b41657c",
+  "name" : "Case #10 Change language (RU) on main page",
+  "fullName" : "Case #10 Change language (RU) on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #10 Change language (RU) on main page",
   "time" : {
-    "start" : 1629871847871,
-    "stop" : 1629871857391,
-    "duration" : 9520
+    "start" : 1629897222911,
+    "stop" : 1629897230159,
+    "duration" : 7248
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bb259c0e92a44650",
+      "uid" : "494221b422183508",
       "name" : "stdout",
-      "source" : "bb259c0e92a44650.txt",
+      "source" : "494221b422183508.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "e01f475a1da2ab50",
+      "name" : "stdout",
+      "source" : "e01f475a1da2ab50.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -37,10 +43,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/header.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -55,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aeeae04e01f532a7.json",
+  "source" : "1e40656b3b41657c.json",
   "parameterValues" : [ ]
 }

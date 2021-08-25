@@ -1,12 +1,12 @@
 {
-  "uid" : "e9094e00c93af388",
-  "name" : "Case #1 Click on User menu",
-  "fullName" : "Case #1 Click on User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
+  "uid" : "b5b76e5891392639",
+  "name" : "Case #1 Login as user and logout",
+  "fullName" : "Case #1 Login as user and logout",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #1 Login as user and logout",
   "time" : {
-    "start" : 1629875903629,
-    "stop" : 1629875909680,
-    "duration" : 6051
+    "start" : 1629897146744,
+    "stop" : 1629897158828,
+    "duration" : 12084
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ba2839c6befa2ed0",
+      "uid" : "a1ec0f7fd728a3b",
       "name" : "stdout",
-      "source" : "ba2839c6befa2ed0.txt",
+      "source" : "a1ec0f7fd728a3b.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -37,10 +37,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/header.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e9094e00c93af388.json",
+  "source" : "b5b76e5891392639.json",
   "parameterValues" : [ ]
 }

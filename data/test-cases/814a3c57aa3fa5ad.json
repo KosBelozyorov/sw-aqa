@@ -1,12 +1,12 @@
 {
-  "uid" : "4478b80be120bbdb",
-  "name" : "Case #2 Go to Profile page from User menu",
-  "fullName" : "Case #2 Go to Profile page from User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #2 Go to Profile page from User menu",
+  "uid" : "814a3c57aa3fa5ad",
+  "name" : "Case #3 Using search on main page",
+  "fullName" : "Case #3 Using search on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #3 Using search on main page",
   "time" : {
-    "start" : 1629875909681,
-    "stop" : 1629875916889,
-    "duration" : 7208
+    "start" : 1629897167650,
+    "stop" : 1629897175216,
+    "duration" : 7566
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "263c391242ebc6a0",
+      "uid" : "38b2b034842f5f05",
       "name" : "stdout",
-      "source" : "263c391242ebc6a0.txt",
+      "source" : "38b2b034842f5f05.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "359a9951867836c",
+      "uid" : "5e9cd8f13834b276",
       "name" : "stdout",
-      "source" : "359a9951867836c.txt",
+      "source" : "5e9cd8f13834b276.txt",
       "type" : "text/plain",
-      "size" : 18
+      "size" : 33
+    }, {
+      "uid" : "621cc547e4846083",
+      "name" : "stdout",
+      "source" : "621cc547e4846083.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -43,10 +49,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/header.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -61,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4478b80be120bbdb.json",
+  "source" : "814a3c57aa3fa5ad.json",
   "parameterValues" : [ ]
 }

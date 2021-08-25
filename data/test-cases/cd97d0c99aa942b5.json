@@ -1,12 +1,12 @@
 {
-  "uid" : "72bca9309181bd1d",
-  "name" : "case #6 Using search on main page by product description",
-  "fullName" : "case #6 Using search on main page by product description",
-  "historyId" : " test/main.test.js Suite of Base tests: case #6 Using search on main page by product description",
+  "uid" : "cd97d0c99aa942b5",
+  "name" : "case #13 Add the product to the cart",
+  "fullName" : "case #13 Add the product to the cart",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #13 Add the product to the cart",
   "time" : {
-    "start" : 1629871877681,
-    "stop" : 1629871884875,
-    "duration" : 7194
+    "start" : 1629897230160,
+    "stop" : 1629897246206,
+    "duration" : 16046
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,39 +16,45 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5445ecdb912ceac8",
+      "uid" : "d51bc57fc8d0b4ab",
       "name" : "stdout",
-      "source" : "5445ecdb912ceac8.txt",
+      "source" : "d51bc57fc8d0b4ab.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "45cad49570ba64f6",
+      "uid" : "e57ee688c869ae0",
       "name" : "stdout",
-      "source" : "45cad49570ba64f6.txt",
+      "source" : "e57ee688c869ae0.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "fe738454db0837c5",
+      "uid" : "7ec228599e11ad3c",
       "name" : "stdout",
-      "source" : "fe738454db0837c5.txt",
+      "source" : "7ec228599e11ad3c.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "6e1f68a05602f210",
+      "uid" : "8ed1a1315863970f",
       "name" : "stdout",
-      "source" : "6e1f68a05602f210.txt",
+      "source" : "8ed1a1315863970f.txt",
       "type" : "text/plain",
-      "size" : 34
+      "size" : 18
     }, {
-      "uid" : "6510bd090686203f",
+      "uid" : "744f848b6d40c497",
       "name" : "stdout",
-      "source" : "6510bd090686203f.txt",
+      "source" : "744f848b6d40c497.txt",
       "type" : "text/plain",
-      "size" : 30
+      "size" : 22
+    }, {
+      "uid" : "44ac09eeb0fc7f07",
+      "name" : "stdout",
+      "source" : "44ac09eeb0fc7f07.txt",
+      "type" : "text/plain",
+      "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 5,
+    "attachmentsCount" : 6,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -61,7 +67,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -79,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "72bca9309181bd1d.json",
+  "source" : "cd97d0c99aa942b5.json",
   "parameterValues" : [ ]
 }

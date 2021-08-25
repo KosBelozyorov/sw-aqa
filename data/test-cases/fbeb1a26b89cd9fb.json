@@ -1,12 +1,12 @@
 {
-  "uid" : "882de29838d29436",
-  "name" : "Case #9 Change language (UA) on main page",
-  "fullName" : "Case #9 Change language (UA) on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #9 Change language (UA) on main page",
+  "uid" : "fbeb1a26b89cd9fb",
+  "name" : "case #8 Using search on main page by product description",
+  "fullName" : "case #8 Using search on main page by product description",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #8 Using search on main page by product description",
   "time" : {
-    "start" : 1629871898536,
-    "stop" : 1629871905867,
-    "duration" : 7331
+    "start" : 1629897208965,
+    "stop" : 1629897215837,
+    "duration" : 6872
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fbb05aa04d7785ce",
+      "uid" : "a2d6ca6a885d4a8e",
       "name" : "stdout",
-      "source" : "fbb05aa04d7785ce.txt",
+      "source" : "a2d6ca6a885d4a8e.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "b1551c36fc0de708",
+      "uid" : "6f94f3e43356193",
       "name" : "stdout",
-      "source" : "b1551c36fc0de708.txt",
+      "source" : "6f94f3e43356193.txt",
       "type" : "text/plain",
-      "size" : 18
+      "size" : 34
+    }, {
+      "uid" : "6fc31d44ffa59be9",
+      "name" : "stdout",
+      "source" : "6fc31d44ffa59be9.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -43,7 +49,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -61,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "882de29838d29436.json",
+  "source" : "fbeb1a26b89cd9fb.json",
   "parameterValues" : [ ]
 }

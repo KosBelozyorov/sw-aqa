@@ -1,12 +1,12 @@
 {
-  "uid" : "68578fa96d9a3ba1",
+  "uid" : "548628c7dce7129a",
   "name" : "case #4 Using search on main page",
   "fullName" : "case #4 Using search on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: case #4 Using search on main page",
+  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #4 Using search on main page",
   "time" : {
-    "start" : 1629871859177,
-    "stop" : 1629871870937,
-    "duration" : 11760
+    "start" : 1629897175216,
+    "stop" : 1629897187853,
+    "duration" : 12637
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,33 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "21fe9b0902f2f9c8",
+      "uid" : "f7bdb73217483719",
       "name" : "stdout",
-      "source" : "21fe9b0902f2f9c8.txt",
+      "source" : "f7bdb73217483719.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "49634a1a906eb6b0",
+      "uid" : "d8c74dc2bb7f11cb",
       "name" : "stdout",
-      "source" : "49634a1a906eb6b0.txt",
+      "source" : "d8c74dc2bb7f11cb.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "7582f49022d90347",
+      "uid" : "fa81d9275bed9db4",
       "name" : "stdout",
-      "source" : "7582f49022d90347.txt",
+      "source" : "fa81d9275bed9db4.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "29a592ce93b01919",
+      "uid" : "82ce62dc8c5152fe",
       "name" : "stdout",
-      "source" : "29a592ce93b01919.txt",
+      "source" : "82ce62dc8c5152fe.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "cea094086a07878c",
+      "uid" : "1462914cda4d6031",
       "name" : "stdout",
-      "source" : "cea094086a07878c.txt",
+      "source" : "1462914cda4d6031.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
@@ -61,7 +61,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "subSuite",
     "value" : "Suite of Base tests:"
@@ -79,6 +79,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "68578fa96d9a3ba1.json",
+  "source" : "548628c7dce7129a.json",
   "parameterValues" : [ ]
 }
