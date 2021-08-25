@@ -1,0 +1,66 @@
+{
+  "uid" : "6ae6ed7642a39912",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "fullName" : "Case #2 Go to Profile page from User menu",
+  "historyId" : " test/header.test.js Suite of the Heder menu tests: Case #2 Go to Profile page from User menu",
+  "time" : {
+    "start" : 1629871838572,
+    "stop" : 1629871847871,
+    "duration" : 9299
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c34dd16fc09f0b6",
+      "name" : "stdout",
+      "source" : "5c34dd16fc09f0b6.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "83ee3192ec349b7b",
+      "name" : "stdout",
+      "source" : "83ee3192ec349b7b.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/header.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of the Heder menu tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ae6ed7642a39912.json",
+  "parameterValues" : [ ]
+}

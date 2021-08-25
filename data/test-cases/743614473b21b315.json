@@ -1,0 +1,84 @@
+{
+  "uid" : "743614473b21b315",
+  "name" : "case #4 Using search on main page",
+  "fullName" : "case #4 Using search on main page",
+  "historyId" : " test/main.test.js Suite of Base tests: case #4 Using search on main page",
+  "time" : {
+    "start" : 1629871859177,
+    "stop" : 1629871870937,
+    "duration" : 11760
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe3f538d1ae0f56b",
+      "name" : "stdout",
+      "source" : "fe3f538d1ae0f56b.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "63485405968c6f03",
+      "name" : "stdout",
+      "source" : "63485405968c6f03.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "bb8c9287046f3c95",
+      "name" : "stdout",
+      "source" : "bb8c9287046f3c95.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "5232f62c758c5c43",
+      "name" : "stdout",
+      "source" : "5232f62c758c5c43.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "5062e487a7f5390b",
+      "name" : "stdout",
+      "source" : "5062e487a7f5390b.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "743614473b21b315.json",
+  "parameterValues" : [ ]
+}

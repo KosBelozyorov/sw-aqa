@@ -1,0 +1,72 @@
+{
+  "uid" : "7889456e832965b9",
+  "name" : "Case #3 Using search on main page",
+  "fullName" : "Case #3 Using search on main page",
+  "historyId" : " test/main.test.js Suite of Base tests: Case #3 Using search on main page",
+  "time" : {
+    "start" : 1629871851428,
+    "stop" : 1629871859177,
+    "duration" : 7749
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c12891fdb3732c5",
+      "name" : "stdout",
+      "source" : "8c12891fdb3732c5.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "9e6bccebc481222c",
+      "name" : "stdout",
+      "source" : "9e6bccebc481222c.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "bef75d342995e00",
+      "name" : "stdout",
+      "source" : "bef75d342995e00.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7889456e832965b9.json",
+  "parameterValues" : [ ]
+}

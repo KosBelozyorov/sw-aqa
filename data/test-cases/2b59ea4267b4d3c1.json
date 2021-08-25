@@ -1,0 +1,84 @@
+{
+  "uid" : "2b59ea4267b4d3c1",
+  "name" : "case #6 Using search on main page by product description",
+  "fullName" : "case #6 Using search on main page by product description",
+  "historyId" : " test/main.test.js Suite of Base tests: case #6 Using search on main page by product description",
+  "time" : {
+    "start" : 1629871877681,
+    "stop" : 1629871884875,
+    "duration" : 7194
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6634c35c3623354a",
+      "name" : "stdout",
+      "source" : "6634c35c3623354a.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "7dd498e632026cdc",
+      "name" : "stdout",
+      "source" : "7dd498e632026cdc.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "4519821be50f1c39",
+      "name" : "stdout",
+      "source" : "4519821be50f1c39.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "2636d89964b77c46",
+      "name" : "stdout",
+      "source" : "2636d89964b77c46.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "3308246b0149feff",
+      "name" : "stdout",
+      "source" : "3308246b0149feff.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b59ea4267b4d3c1.json",
+  "parameterValues" : [ ]
+}

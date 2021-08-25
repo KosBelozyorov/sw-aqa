@@ -1,0 +1,78 @@
+{
+  "uid" : "1e8450b51ad761c5",
+  "name" : "case #15 Remove product from the cart",
+  "fullName" : "case #15 Remove product from the cart",
+  "historyId" : " test/main.test.js Suite of Base tests: case #15 Remove product from the cart",
+  "time" : {
+    "start" : 1629871946534,
+    "stop" : 1629871964679,
+    "duration" : 18145
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1981a1fe4c090e13",
+      "name" : "stdout",
+      "source" : "1981a1fe4c090e13.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "61299def8040a580",
+      "name" : "stdout",
+      "source" : "61299def8040a580.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "9a7b094f1b0cc9e",
+      "name" : "stdout",
+      "source" : "9a7b094f1b0cc9e.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "63cff4a5157019c6",
+      "name" : "stdout",
+      "source" : "63cff4a5157019c6.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e8450b51ad761c5.json",
+  "parameterValues" : [ ]
+}

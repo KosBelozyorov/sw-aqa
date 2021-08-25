@@ -1,0 +1,226 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Case #1 Click on User menu",
+    "uid" : "85b3d9d58dcf2715",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871830625,
+      "stop" : 1629871838570,
+      "duration" : 7945
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #1 Login as user and logout",
+    "uid" : "49c095290ed9199",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871831039,
+      "stop" : 1629871842508,
+      "duration" : 11469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #2 Go to Profile page from User menu",
+    "uid" : "6ae6ed7642a39912",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871838572,
+      "stop" : 1629871847871,
+      "duration" : 9299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #2 Using search on main page",
+    "uid" : "3342513cc386754c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871842508,
+      "stop" : 1629871851428,
+      "duration" : 8920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #3 Logout from User menu",
+    "uid" : "a3d19b63381475f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871847871,
+      "stop" : 1629871857391,
+      "duration" : 9520
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #3 Using search on main page",
+    "uid" : "7889456e832965b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871851428,
+      "stop" : 1629871859177,
+      "duration" : 7749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #4 Using search on main page",
+    "uid" : "743614473b21b315",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871859177,
+      "stop" : 1629871870937,
+      "duration" : 11760
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #5 Using search on main page by product code",
+    "uid" : "3d84e166ee0b3ffd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871870937,
+      "stop" : 1629871877681,
+      "duration" : 6744
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #6 Using search on main page by product description",
+    "uid" : "2b59ea4267b4d3c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871877681,
+      "stop" : 1629871884875,
+      "duration" : 7194
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #7 Using search on main page by product description",
+    "uid" : "4e83534a14cb53c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871884875,
+      "stop" : 1629871891444,
+      "duration" : 6569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #8 Using search on main page by product description",
+    "uid" : "1471a6099989c580",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871891443,
+      "stop" : 1629871898535,
+      "duration" : 7092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #9 Change language (UA) on main page",
+    "uid" : "fef29366528c88c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871898536,
+      "stop" : 1629871905867,
+      "duration" : 7331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #10 Change language (RU) on main page",
+    "uid" : "3f96fd049123b85e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871905867,
+      "stop" : 1629871912938,
+      "duration" : 7071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #13 Add the product to the cart",
+    "uid" : "d385c89e228270e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871912938,
+      "stop" : 1629871928455,
+      "duration" : 15517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #14 Remove all products from the cart",
+    "uid" : "52685a90c01359fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871928455,
+      "stop" : 1629871946534,
+      "duration" : 18079
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #15 Remove product from the cart",
+    "uid" : "1e8450b51ad761c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871946534,
+      "stop" : 1629871964679,
+      "duration" : 18145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "case #16 Create order",
+    "uid" : "9f07f24ce3545173",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629871964678,
+      "stop" : 1629871985589,
+      "duration" : 20911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

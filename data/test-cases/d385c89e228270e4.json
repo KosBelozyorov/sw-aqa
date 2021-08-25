@@ -1,0 +1,90 @@
+{
+  "uid" : "d385c89e228270e4",
+  "name" : "case #13 Add the product to the cart",
+  "fullName" : "case #13 Add the product to the cart",
+  "historyId" : " test/main.test.js Suite of Base tests: case #13 Add the product to the cart",
+  "time" : {
+    "start" : 1629871912938,
+    "stop" : 1629871928455,
+    "duration" : 15517
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbbf0f786f0e9711",
+      "name" : "stdout",
+      "source" : "fbbf0f786f0e9711.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "6b05cda4f501a045",
+      "name" : "stdout",
+      "source" : "6b05cda4f501a045.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "a3782fa33fe9d4fd",
+      "name" : "stdout",
+      "source" : "a3782fa33fe9d4fd.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "af1779732838e4f3",
+      "name" : "stdout",
+      "source" : "af1779732838e4f3.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "dd47fc8fa1be988b",
+      "name" : "stdout",
+      "source" : "dd47fc8fa1be988b.txt",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "e7c6f17ac013caa2",
+      "name" : "stdout",
+      "source" : "e7c6f17ac013caa2.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test/main.test.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Suite of Base tests:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d385c89e228270e4.json",
+  "parameterValues" : [ ]
+}
