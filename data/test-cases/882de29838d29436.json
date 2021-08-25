@@ -1,12 +1,12 @@
 {
-  "uid" : "7889456e832965b9",
-  "name" : "Case #3 Using search on main page",
-  "fullName" : "Case #3 Using search on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #3 Using search on main page",
+  "uid" : "882de29838d29436",
+  "name" : "Case #9 Change language (UA) on main page",
+  "fullName" : "Case #9 Change language (UA) on main page",
+  "historyId" : " test/main.test.js Suite of Base tests: Case #9 Change language (UA) on main page",
   "time" : {
-    "start" : 1629871851428,
-    "stop" : 1629871859177,
-    "duration" : 7749
+    "start" : 1629871898536,
+    "stop" : 1629871905867,
+    "duration" : 7331
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8c12891fdb3732c5",
+      "uid" : "fbb05aa04d7785ce",
       "name" : "stdout",
-      "source" : "8c12891fdb3732c5.txt",
+      "source" : "fbb05aa04d7785ce.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "9e6bccebc481222c",
+      "uid" : "b1551c36fc0de708",
       "name" : "stdout",
-      "source" : "9e6bccebc481222c.txt",
+      "source" : "b1551c36fc0de708.txt",
       "type" : "text/plain",
-      "size" : 33
-    }, {
-      "uid" : "bef75d342995e00",
-      "name" : "stdout",
-      "source" : "bef75d342995e00.txt",
-      "type" : "text/plain",
-      "size" : 30
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -67,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7889456e832965b9.json",
+  "source" : "882de29838d29436.json",
   "parameterValues" : [ ]
 }

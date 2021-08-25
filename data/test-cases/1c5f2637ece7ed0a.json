@@ -1,12 +1,12 @@
 {
-  "uid" : "85b3d9d58dcf2715",
-  "name" : "Case #1 Click on User menu",
-  "fullName" : "Case #1 Click on User menu",
-  "historyId" : " test/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
+  "uid" : "1c5f2637ece7ed0a",
+  "name" : "Case #3 Using search on main page",
+  "fullName" : "Case #3 Using search on main page",
+  "historyId" : " test/main.test.js Suite of Base tests: Case #3 Using search on main page",
   "time" : {
-    "start" : 1629871830625,
-    "stop" : 1629871838570,
-    "duration" : 7945
+    "start" : 1629871851428,
+    "stop" : 1629871859177,
+    "duration" : 7749
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "36a178fc7473193d",
+      "uid" : "e37b1e158ae31cfc",
       "name" : "stdout",
-      "source" : "36a178fc7473193d.txt",
+      "source" : "e37b1e158ae31cfc.txt",
       "type" : "text/plain",
       "size" : 18
+    }, {
+      "uid" : "944cf33b4c9b0d92",
+      "name" : "stdout",
+      "source" : "944cf33b4c9b0d92.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "4f659cf4ad99f045",
+      "name" : "stdout",
+      "source" : "4f659cf4ad99f045.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -37,10 +49,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/header.test.js"
+    "value" : "test/main.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "Suite of Base tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -55,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "85b3d9d58dcf2715.json",
+  "source" : "1c5f2637ece7ed0a.json",
   "parameterValues" : [ ]
 }

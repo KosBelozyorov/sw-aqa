@@ -1,5 +1,5 @@
 {
-  "uid" : "3d84e166ee0b3ffd",
+  "uid" : "17129a800a0ee80c",
   "name" : "case #5 Using search on main page by product code",
   "fullName" : "case #5 Using search on main page by product code",
   "historyId" : " test/main.test.js Suite of Base tests: case #5 Using search on main page by product code",
@@ -16,33 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bef691da35587e71",
+      "uid" : "29a47fd2622a20ba",
       "name" : "stdout",
-      "source" : "bef691da35587e71.txt",
+      "source" : "29a47fd2622a20ba.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "49d835ef4fbe4fa5",
+      "uid" : "6455457e8ae539ba",
       "name" : "stdout",
-      "source" : "49d835ef4fbe4fa5.txt",
+      "source" : "6455457e8ae539ba.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "bc92099bb664341e",
+      "uid" : "d1d60528e031eca2",
       "name" : "stdout",
-      "source" : "bc92099bb664341e.txt",
+      "source" : "d1d60528e031eca2.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "9afd7533d526f493",
+      "uid" : "c055ae18efefd5b1",
       "name" : "stdout",
-      "source" : "9afd7533d526f493.txt",
+      "source" : "c055ae18efefd5b1.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "c65639ee44e5ab58",
+      "uid" : "93eac32791ec3c4",
       "name" : "stdout",
-      "source" : "c65639ee44e5ab58.txt",
+      "source" : "93eac32791ec3c4.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
@@ -79,6 +79,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3d84e166ee0b3ffd.json",
+  "source" : "17129a800a0ee80c.json",
   "parameterValues" : [ ]
 }

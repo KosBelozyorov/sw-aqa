@@ -1,12 +1,12 @@
 {
-  "uid" : "d385c89e228270e4",
-  "name" : "case #13 Add the product to the cart",
-  "fullName" : "case #13 Add the product to the cart",
-  "historyId" : " test/main.test.js Suite of Base tests: case #13 Add the product to the cart",
+  "uid" : "b1b9e821ccc4c74e",
+  "name" : "case #15 Remove product from the cart",
+  "fullName" : "case #15 Remove product from the cart",
+  "historyId" : " test/main.test.js Suite of Base tests: case #15 Remove product from the cart",
   "time" : {
-    "start" : 1629871912938,
-    "stop" : 1629871928455,
-    "duration" : 15517
+    "start" : 1629871946534,
+    "stop" : 1629871964679,
+    "duration" : 18145
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,45 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fbbf0f786f0e9711",
+      "uid" : "c1fdab6c6d841d30",
       "name" : "stdout",
-      "source" : "fbbf0f786f0e9711.txt",
+      "source" : "c1fdab6c6d841d30.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "6b05cda4f501a045",
+      "uid" : "59fc270eae173c31",
       "name" : "stdout",
-      "source" : "6b05cda4f501a045.txt",
+      "source" : "59fc270eae173c31.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "a3782fa33fe9d4fd",
+      "uid" : "fce7ca62e5972486",
       "name" : "stdout",
-      "source" : "a3782fa33fe9d4fd.txt",
+      "source" : "fce7ca62e5972486.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "af1779732838e4f3",
+      "uid" : "581684646f9a019f",
       "name" : "stdout",
-      "source" : "af1779732838e4f3.txt",
+      "source" : "581684646f9a019f.txt",
       "type" : "text/plain",
       "size" : 18
-    }, {
-      "uid" : "dd47fc8fa1be988b",
-      "name" : "stdout",
-      "source" : "dd47fc8fa1be988b.txt",
-      "type" : "text/plain",
-      "size" : 22
-    }, {
-      "uid" : "e7c6f17ac013caa2",
-      "name" : "stdout",
-      "source" : "e7c6f17ac013caa2.txt",
-      "type" : "text/plain",
-      "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 6,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -85,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d385c89e228270e4.json",
+  "source" : "b1b9e821ccc4c74e.json",
   "parameterValues" : [ ]
 }

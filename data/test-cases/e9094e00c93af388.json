@@ -1,12 +1,12 @@
 {
-  "uid" : "3f96fd049123b85e",
-  "name" : "Case #10 Change language (RU) on main page",
-  "fullName" : "Case #10 Change language (RU) on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #10 Change language (RU) on main page",
+  "uid" : "e9094e00c93af388",
+  "name" : "Case #1 Click on User menu",
+  "fullName" : "Case #1 Click on User menu",
+  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
   "time" : {
-    "start" : 1629871905867,
-    "stop" : 1629871912938,
-    "duration" : 7071
+    "start" : 1629875903629,
+    "stop" : 1629875909680,
+    "duration" : 6051
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "99466adee29c3b7a",
+      "uid" : "ba2839c6befa2ed0",
       "name" : "stdout",
-      "source" : "99466adee29c3b7a.txt",
-      "type" : "text/plain",
-      "size" : 18
-    }, {
-      "uid" : "1bd68cb4b595aab3",
-      "name" : "stdout",
-      "source" : "1bd68cb4b595aab3.txt",
+      "source" : "ba2839c6befa2ed0.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -43,10 +37,10 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/main.test.js"
+    "value" : "test/Smoke/header.test.js"
   }, {
     "name" : "subSuite",
-    "value" : "Suite of Base tests:"
+    "value" : "Suite of the Heder menu tests:"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -61,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3f96fd049123b85e.json",
+  "source" : "e9094e00c93af388.json",
   "parameterValues" : [ ]
 }

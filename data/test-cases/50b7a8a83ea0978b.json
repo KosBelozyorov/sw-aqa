@@ -1,5 +1,5 @@
 {
-  "uid" : "3342513cc386754c",
+  "uid" : "50b7a8a83ea0978b",
   "name" : "Case #2 Using search on main page",
   "fullName" : "Case #2 Using search on main page",
   "historyId" : " test/main.test.js Suite of Base tests: Case #2 Using search on main page",
@@ -16,21 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b2acb9418ea2de85",
+      "uid" : "54d8426f8773f779",
       "name" : "stdout",
-      "source" : "b2acb9418ea2de85.txt",
+      "source" : "54d8426f8773f779.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "10b1bfd5af3e62df",
+      "uid" : "4bad94ecdb654efa",
       "name" : "stdout",
-      "source" : "10b1bfd5af3e62df.txt",
+      "source" : "4bad94ecdb654efa.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "2f75768d0392acb8",
+      "uid" : "563673d4c6e17af0",
       "name" : "stdout",
-      "source" : "2f75768d0392acb8.txt",
+      "source" : "563673d4c6e17af0.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
@@ -67,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3342513cc386754c.json",
+  "source" : "50b7a8a83ea0978b.json",
   "parameterValues" : [ ]
 }

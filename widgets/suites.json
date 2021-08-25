@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "2ea623e399973eb28a6253b5567d5e3a",
     "name" : "test/main.test.js",
@@ -14,6 +14,17 @@
   }, {
     "uid" : "3b6fd870670b9692d82abebef41461a3",
     "name" : "test/header.test.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a208e8e61db4444cffec39ab8a52e110",
+    "name" : "test/Smoke/header.test.js",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

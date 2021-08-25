@@ -1,12 +1,12 @@
 {
-  "uid" : "6ae6ed7642a39912",
-  "name" : "Case #2 Go to Profile page from User menu",
-  "fullName" : "Case #2 Go to Profile page from User menu",
-  "historyId" : " test/header.test.js Suite of the Heder menu tests: Case #2 Go to Profile page from User menu",
+  "uid" : "aeeae04e01f532a7",
+  "name" : "Case #3 Logout from User menu",
+  "fullName" : "Case #3 Logout from User menu",
+  "historyId" : " test/header.test.js Suite of the Heder menu tests: Case #3 Logout from User menu",
   "time" : {
-    "start" : 1629871838572,
-    "stop" : 1629871847871,
-    "duration" : 9299
+    "start" : 1629871847871,
+    "stop" : 1629871857391,
+    "duration" : 9520
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5c34dd16fc09f0b6",
+      "uid" : "bb259c0e92a44650",
       "name" : "stdout",
-      "source" : "5c34dd16fc09f0b6.txt",
-      "type" : "text/plain",
-      "size" : 18
-    }, {
-      "uid" : "83ee3192ec349b7b",
-      "name" : "stdout",
-      "source" : "83ee3192ec349b7b.txt",
+      "source" : "bb259c0e92a44650.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -61,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6ae6ed7642a39912.json",
+  "source" : "aeeae04e01f532a7.json",
   "parameterValues" : [ ]
 }

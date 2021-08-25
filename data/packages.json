@@ -3,7 +3,7 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Case #1 Click on User menu",
-    "uid" : "85b3d9d58dcf2715",
+    "uid" : "673843bd34805e9e",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #1 Login as user and logout",
-    "uid" : "49c095290ed9199",
+    "uid" : "2825befd3f37e16b",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -29,7 +29,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #2 Go to Profile page from User menu",
-    "uid" : "6ae6ed7642a39912",
+    "uid" : "9a208e8766b7fefb",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -42,7 +42,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #2 Using search on main page",
-    "uid" : "3342513cc386754c",
+    "uid" : "50b7a8a83ea0978b",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -55,7 +55,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #3 Logout from User menu",
-    "uid" : "a3d19b63381475f6",
+    "uid" : "aeeae04e01f532a7",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -68,7 +68,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #3 Using search on main page",
-    "uid" : "7889456e832965b9",
+    "uid" : "1c5f2637ece7ed0a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -81,7 +81,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #4 Using search on main page",
-    "uid" : "743614473b21b315",
+    "uid" : "68578fa96d9a3ba1",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -94,7 +94,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #5 Using search on main page by product code",
-    "uid" : "3d84e166ee0b3ffd",
+    "uid" : "17129a800a0ee80c",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -107,7 +107,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #6 Using search on main page by product description",
-    "uid" : "2b59ea4267b4d3c1",
+    "uid" : "72bca9309181bd1d",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -120,7 +120,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #7 Using search on main page by product description",
-    "uid" : "4e83534a14cb53c0",
+    "uid" : "dca3312d54ab2901",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -133,7 +133,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #8 Using search on main page by product description",
-    "uid" : "1471a6099989c580",
+    "uid" : "441450fc9c7b2382",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -146,7 +146,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #9 Change language (UA) on main page",
-    "uid" : "fef29366528c88c8",
+    "uid" : "882de29838d29436",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -159,7 +159,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Case #10 Change language (RU) on main page",
-    "uid" : "3f96fd049123b85e",
+    "uid" : "aea88f2bf2c99b93",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -172,7 +172,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #13 Add the product to the cart",
-    "uid" : "d385c89e228270e4",
+    "uid" : "49048dbf6a54eeec",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -185,7 +185,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #14 Remove all products from the cart",
-    "uid" : "52685a90c01359fd",
+    "uid" : "f92cfe515392306d",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -198,7 +198,7 @@
     "parameters" : [ ]
   }, {
     "name" : "case #15 Remove product from the cart",
-    "uid" : "1e8450b51ad761c5",
+    "uid" : "b1b9e821ccc4c74e",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -211,13 +211,52 @@
     "parameters" : [ ]
   }, {
     "name" : "case #16 Create order",
-    "uid" : "9f07f24ce3545173",
+    "uid" : "ae12e1aa0e77a3d8",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
       "start" : 1629871964678,
       "stop" : 1629871985589,
       "duration" : 20911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #1 Click on User menu",
+    "uid" : "e9094e00c93af388",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629875903629,
+      "stop" : 1629875909680,
+      "duration" : 6051
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #2 Go to Profile page from User menu",
+    "uid" : "4478b80be120bbdb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629875909681,
+      "stop" : 1629875916889,
+      "duration" : 7208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Case #3 Logout from User menu",
+    "uid" : "e4723e5d7dde8a71",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629875916900,
+      "stop" : 1629875923863,
+      "duration" : 6963
     },
     "flaky" : false,
     "newFailed" : false,

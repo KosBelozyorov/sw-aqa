@@ -1,5 +1,5 @@
 {
-  "uid" : "1471a6099989c580",
+  "uid" : "441450fc9c7b2382",
   "name" : "case #8 Using search on main page by product description",
   "fullName" : "case #8 Using search on main page by product description",
   "historyId" : " test/main.test.js Suite of Base tests: case #8 Using search on main page by product description",
@@ -16,21 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "32dd5b6aca7d517b",
+      "uid" : "794d54f4f8f655aa",
       "name" : "stdout",
-      "source" : "32dd5b6aca7d517b.txt",
+      "source" : "794d54f4f8f655aa.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "1b74272a38fa4a18",
+      "uid" : "d3a11b0244dc7f9d",
       "name" : "stdout",
-      "source" : "1b74272a38fa4a18.txt",
+      "source" : "d3a11b0244dc7f9d.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "5d5bca73f891c6d7",
+      "uid" : "2f6a1f6ff89c0844",
       "name" : "stdout",
-      "source" : "5d5bca73f891c6d7.txt",
+      "source" : "2f6a1f6ff89c0844.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
@@ -67,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1471a6099989c580.json",
+  "source" : "441450fc9c7b2382.json",
   "parameterValues" : [ ]
 }

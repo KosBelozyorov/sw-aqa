@@ -1,12 +1,12 @@
 {
-  "uid" : "52685a90c01359fd",
-  "name" : "case #14 Remove all products from the cart",
-  "fullName" : "case #14 Remove all products from the cart",
-  "historyId" : " test/main.test.js Suite of Base tests: case #14 Remove all products from the cart",
+  "uid" : "ae12e1aa0e77a3d8",
+  "name" : "case #16 Create order",
+  "fullName" : "case #16 Create order",
+  "historyId" : " test/main.test.js Suite of Base tests: case #16 Create order",
   "time" : {
-    "start" : 1629871928455,
-    "stop" : 1629871946534,
-    "duration" : 18079
+    "start" : 1629871964678,
+    "stop" : 1629871985589,
+    "duration" : 20911
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,33 +16,51 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1382708bbc0778ab",
+      "uid" : "61d9ac047edfa992",
       "name" : "stdout",
-      "source" : "1382708bbc0778ab.txt",
+      "source" : "61d9ac047edfa992.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "7c20d1f54424977f",
+      "uid" : "393079470fb86f3",
       "name" : "stdout",
-      "source" : "7c20d1f54424977f.txt",
+      "source" : "393079470fb86f3.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "864de59ca6a6b7e6",
+      "uid" : "3853eb489459e2a4",
       "name" : "stdout",
-      "source" : "864de59ca6a6b7e6.txt",
+      "source" : "3853eb489459e2a4.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "aec833010fef74eb",
+      "uid" : "b161da2d789eb263",
       "name" : "stdout",
-      "source" : "aec833010fef74eb.txt",
+      "source" : "b161da2d789eb263.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "8cabda70385e740e",
+      "name" : "stdout",
+      "source" : "8cabda70385e740e.txt",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "47c41cc463d8e09e",
+      "name" : "stdout",
+      "source" : "47c41cc463d8e09e.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "a0336327d0613ef",
+      "name" : "stdout",
+      "source" : "a0336327d0613ef.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 4,
+    "attachmentsCount" : 7,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -73,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "52685a90c01359fd.json",
+  "source" : "ae12e1aa0e77a3d8.json",
   "parameterValues" : [ ]
 }

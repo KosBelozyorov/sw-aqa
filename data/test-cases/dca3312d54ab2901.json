@@ -1,12 +1,12 @@
 {
-  "uid" : "fef29366528c88c8",
-  "name" : "Case #9 Change language (UA) on main page",
-  "fullName" : "Case #9 Change language (UA) on main page",
-  "historyId" : " test/main.test.js Suite of Base tests: Case #9 Change language (UA) on main page",
+  "uid" : "dca3312d54ab2901",
+  "name" : "case #7 Using search on main page by product description",
+  "fullName" : "case #7 Using search on main page by product description",
+  "historyId" : " test/main.test.js Suite of Base tests: case #7 Using search on main page by product description",
   "time" : {
-    "start" : 1629871898536,
-    "stop" : 1629871905867,
-    "duration" : 7331
+    "start" : 1629871884875,
+    "stop" : 1629871891444,
+    "duration" : 6569
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5365452eb76dad95",
+      "uid" : "8a8d455ca46aeeff",
       "name" : "stdout",
-      "source" : "5365452eb76dad95.txt",
+      "source" : "8a8d455ca46aeeff.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "ba982b15c01e65a5",
+      "uid" : "15a583ea3b7aeec",
       "name" : "stdout",
-      "source" : "ba982b15c01e65a5.txt",
+      "source" : "15a583ea3b7aeec.txt",
       "type" : "text/plain",
-      "size" : 18
+      "size" : 33
+    }, {
+      "uid" : "ed64ccf8c44b5ee4",
+      "name" : "stdout",
+      "source" : "ed64ccf8c44b5ee4.txt",
+      "type" : "text/plain",
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -61,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fef29366528c88c8.json",
+  "source" : "dca3312d54ab2901.json",
   "parameterValues" : [ ]
 }

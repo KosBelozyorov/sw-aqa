@@ -1,12 +1,12 @@
 {
-  "uid" : "9f07f24ce3545173",
-  "name" : "case #16 Create order",
-  "fullName" : "case #16 Create order",
-  "historyId" : " test/main.test.js Suite of Base tests: case #16 Create order",
+  "uid" : "72bca9309181bd1d",
+  "name" : "case #6 Using search on main page by product description",
+  "fullName" : "case #6 Using search on main page by product description",
+  "historyId" : " test/main.test.js Suite of Base tests: case #6 Using search on main page by product description",
   "time" : {
-    "start" : 1629871964678,
-    "stop" : 1629871985589,
-    "duration" : 20911
+    "start" : 1629871877681,
+    "stop" : 1629871884875,
+    "duration" : 7194
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,51 +16,39 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "16083c306c59fe03",
+      "uid" : "5445ecdb912ceac8",
       "name" : "stdout",
-      "source" : "16083c306c59fe03.txt",
+      "source" : "5445ecdb912ceac8.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "28eb9247380982aa",
+      "uid" : "45cad49570ba64f6",
       "name" : "stdout",
-      "source" : "28eb9247380982aa.txt",
+      "source" : "45cad49570ba64f6.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "36f5f136c0734958",
+      "uid" : "fe738454db0837c5",
       "name" : "stdout",
-      "source" : "36f5f136c0734958.txt",
+      "source" : "fe738454db0837c5.txt",
       "type" : "text/plain",
       "size" : 30
     }, {
-      "uid" : "1a0980dd078abe8a",
+      "uid" : "6e1f68a05602f210",
       "name" : "stdout",
-      "source" : "1a0980dd078abe8a.txt",
+      "source" : "6e1f68a05602f210.txt",
       "type" : "text/plain",
-      "size" : 18
+      "size" : 34
     }, {
-      "uid" : "508bd6d4d7ad6734",
+      "uid" : "6510bd090686203f",
       "name" : "stdout",
-      "source" : "508bd6d4d7ad6734.txt",
+      "source" : "6510bd090686203f.txt",
       "type" : "text/plain",
-      "size" : 22
-    }, {
-      "uid" : "f88e1c698f1c30e6",
-      "name" : "stdout",
-      "source" : "f88e1c698f1c30e6.txt",
-      "type" : "text/plain",
-      "size" : 16
-    }, {
-      "uid" : "a6edfe0faff2aa56",
-      "name" : "stdout",
-      "source" : "a6edfe0faff2aa56.txt",
-      "type" : "text/plain",
-      "size" : 18
+      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 7,
+    "attachmentsCount" : 5,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -91,6 +79,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f07f24ce3545173.json",
+  "source" : "72bca9309181bd1d.json",
   "parameterValues" : [ ]
 }
