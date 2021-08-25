@@ -5,13 +5,13 @@ const {
   HeaderPage,
   MainPage,
   ProfilePage,
-} = require('../framework');
+} = require('../../framework');
 
 const {
   DEV_LOGIN_PAGE_URL,
   DEV_MAIN_PAGE_URL,
   DEV_PROFILE_PAGE_URL,
-} = require('../framework/constants');
+} = require('../../framework/constants');
 
 test.describe('Suite of the Heder menu tests:', () => {
   let page = Page;

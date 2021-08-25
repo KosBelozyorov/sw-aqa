@@ -1,14 +1,16 @@
+require('dotenv').config();
+
 // Page urls
 const DEV_LOGIN_PAGE_URL = 'https://b2b-dev2.sanwell.biz/login';
 
-//Credentials
+// Credentials
 const USER_CREDENTIALS = {
-  email: 'belozerov_kos@ukr.net',
-  password: 'Qwerty123!',
+  email: process.env.USER_EMAIL,
+  password: process.env.USER_PASSWORD,
 };
 const ADMIN_CREDENTIALS = {
-  email: 'BielozorovKS@sanwell.biz',
-  password: 'Qwerty123!',
+  email: process.env.ADMIN_EMAIL,
+  password: process.env.ADMIN_PASSWORD,
 };
 
 const ADMIN_EMAIL = ADMIN_CREDENTIALS.email;

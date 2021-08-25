@@ -8,7 +8,7 @@ const {
   ProductPage,
   CheckoutPage,
   SideMenuPage,
-} = require('../framework');
+} = require('../../framework');
 
 const {
   DEV_LOGIN_PAGE_URL,
@@ -16,7 +16,7 @@ const {
   DEV_CHECKOUT_PAGE_URL,
   SEARCH_KEY_WORD,
   SEARCH_CATEGORY,
-} = require('../framework/constants');
+} = require('../../framework/constants');
 
 test.describe('Suite of Base tests:', () => {
   let page = Page;
