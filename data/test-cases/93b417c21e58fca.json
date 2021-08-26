@@ -1,12 +1,12 @@
 {
-  "uid" : "fb468fea641e5acd",
-  "name" : "Case #9 Change language (UA) on main page",
-  "fullName" : "Case #9 Change language (UA) on main page",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #9 Change language (UA) on main page",
+  "uid" : "93b417c21e58fca",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "fullName" : "Case #2 Go to Profile page from User menu",
+  "historyId" : " test/Smoke/header.test.js Case #2 Go to Profile page from User menu",
   "time" : {
-    "start" : 1629900203117,
-    "stop" : 1629900210377,
-    "duration" : 7260
+    "start" : 1629986087073,
+    "stop" : 1629986097804,
+    "duration" : 10731
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,21 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "81f0f95baaa57e99",
+      "uid" : "756cd5a9a6884142",
+      "name" : "screenshot",
+      "source" : "756cd5a9a6884142.png",
+      "type" : "image/png",
+      "size" : 134917
+    }, {
+      "uid" : "7beec1cda590f9e2",
       "name" : "stdout",
-      "source" : "81f0f95baaa57e99.txt",
+      "source" : "7beec1cda590f9e2.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "e7ffdba7e7b71421",
+      "uid" : "1b6fdbc6a7a2a924",
       "name" : "stdout",
-      "source" : "e7ffdba7e7b71421.txt",
+      "source" : "1b6fdbc6a7a2a924.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -43,10 +49,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/main.test.js"
-  }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
+    "value" : "test/Smoke/header.test.js"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -61,6 +64,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fb468fea641e5acd.json",
+  "source" : "93b417c21e58fca.json",
   "parameterValues" : [ ]
 }

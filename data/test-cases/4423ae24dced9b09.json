@@ -1,12 +1,12 @@
 {
-  "uid" : "9b04272b1cc34746",
-  "name" : "Case #1 Login as user and logout",
-  "fullName" : "Case #1 Login as user and logout",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #1 Login as user and logout",
+  "uid" : "4423ae24dced9b09",
+  "name" : "Case #9 Change language (UA) on main page",
+  "fullName" : "Case #9 Change language (UA) on main page",
+  "historyId" : " test/Smoke/main.test.js Case #9 Change language (UA) on main page",
   "time" : {
-    "start" : 1629900136602,
-    "stop" : 1629900147548,
-    "duration" : 10946
+    "start" : 1629986155681,
+    "stop" : 1629986163377,
+    "duration" : 7696
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "50f56d060066e45c",
+      "uid" : "a8cd04cd886d29c7",
+      "name" : "screenshot",
+      "source" : "a8cd04cd886d29c7.png",
+      "type" : "image/png",
+      "size" : 325183
+    }, {
+      "uid" : "87fe5fe480a3c34e",
       "name" : "stdout",
-      "source" : "50f56d060066e45c.txt",
+      "source" : "87fe5fe480a3c34e.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "28aacdd1073a8664",
+      "name" : "stdout",
+      "source" : "28aacdd1073a8664.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -39,9 +51,6 @@
     "name" : "suite",
     "value" : "test/Smoke/main.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -55,6 +64,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9b04272b1cc34746.json",
+  "source" : "4423ae24dced9b09.json",
   "parameterValues" : [ ]
 }

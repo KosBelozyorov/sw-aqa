@@ -1,170 +1,170 @@
 [ {
-  "uid" : "ac19a9ccfdb6799b",
-  "name" : "case #13 Add the product to the cart",
-  "time" : {
-    "start" : 1629900217648,
-    "stop" : 1629900232685,
-    "duration" : 15037
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26dd11b6356f5754",
-  "name" : "Case #2 Go to Profile page from User menu",
-  "time" : {
-    "start" : 1629900144208,
-    "stop" : 1629900153032,
-    "duration" : 8824
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f0c19746b48d007",
-  "name" : "case #16 Create order",
-  "time" : {
-    "start" : 1629900269334,
-    "stop" : 1629900289556,
-    "duration" : 20222
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba15b06bc9677b19",
-  "name" : "case #14 Remove all products from the cart",
-  "time" : {
-    "start" : 1629900232685,
-    "stop" : 1629900251288,
-    "duration" : 18603
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb1faa9280672d68",
-  "name" : "case #5 Using search on main page by product code",
-  "time" : {
-    "start" : 1629900175387,
-    "stop" : 1629900182341,
-    "duration" : 6954
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3def39468f9d8294",
-  "name" : "case #6 Using search on main page by product description",
-  "time" : {
-    "start" : 1629900182342,
-    "stop" : 1629900189661,
-    "duration" : 7319
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9546391f7df7cdbc",
-  "name" : "Case #10 Change language (RU) on main page",
-  "time" : {
-    "start" : 1629900210378,
-    "stop" : 1629900217648,
-    "duration" : 7270
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b04272b1cc34746",
-  "name" : "Case #1 Login as user and logout",
-  "time" : {
-    "start" : 1629900136602,
-    "stop" : 1629900147548,
-    "duration" : 10946
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "192809e51258fc4b",
-  "name" : "Case #3 Using search on main page",
-  "time" : {
-    "start" : 1629900156034,
-    "stop" : 1629900163496,
-    "duration" : 7462
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6c5c373f2f79cf5",
+  "uid" : "fdb5dc445ee8a129",
   "name" : "case #4 Using search on main page",
   "time" : {
-    "start" : 1629900163496,
-    "stop" : 1629900175387,
-    "duration" : 11891
+    "start" : 1629986109491,
+    "stop" : 1629986123408,
+    "duration" : 13917
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8edcbf453f876e78",
-  "name" : "case #15 Remove product from the cart",
+  "uid" : "6debee5bb2d51eb1",
+  "name" : "case #16 Create order",
   "time" : {
-    "start" : 1629900251287,
-    "stop" : 1629900269333,
-    "duration" : 18046
+    "start" : 1629986236472,
+    "stop" : 1629986258281,
+    "duration" : 21809
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4f5fd154d4ae56b0",
-  "name" : "Case #3 Logout from User menu",
+  "uid" : "7992c95a98588127",
+  "name" : "Case #1 Login as user and logout",
   "time" : {
-    "start" : 1629900153032,
-    "stop" : 1629900161743,
-    "duration" : 8711
+    "start" : 1629986078579,
+    "stop" : 1629986090901,
+    "duration" : 12322
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fb468fea641e5acd",
-  "name" : "Case #9 Change language (UA) on main page",
-  "time" : {
-    "start" : 1629900203117,
-    "stop" : 1629900210377,
-    "duration" : 7260
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d3f06438eaf994d",
+  "uid" : "ceb22dfe5a966376",
   "name" : "Case #2 Using search on main page",
   "time" : {
-    "start" : 1629900147549,
-    "stop" : 1629900156035,
-    "duration" : 8486
+    "start" : 1629986090902,
+    "stop" : 1629986100622,
+    "duration" : 9720
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "eb49cf319e5bc078",
+  "uid" : "1917d08905885479",
+  "name" : "Case #3 Using search on main page",
+  "time" : {
+    "start" : 1629986100622,
+    "stop" : 1629986109491,
+    "duration" : 8869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9486470936a82236",
+  "name" : "case #6 Using search on main page by product description",
+  "time" : {
+    "start" : 1629986131566,
+    "stop" : 1629986139892,
+    "duration" : 8326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d6b05486433a14",
   "name" : "case #7 Using search on main page by product description",
   "time" : {
-    "start" : 1629900189660,
-    "stop" : 1629900196158,
-    "duration" : 6498
+    "start" : 1629986139892,
+    "stop" : 1629986147438,
+    "duration" : 7546
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3591307f1cd025fb",
-  "name" : "case #8 Using search on main page by product description",
+  "uid" : "5d227535311452f9",
+  "name" : "case #5 Using search on main page by product code",
   "time" : {
-    "start" : 1629900196159,
-    "stop" : 1629900203118,
-    "duration" : 6959
+    "start" : 1629986123408,
+    "stop" : 1629986131566,
+    "duration" : 8158
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3c16aba19c82c95d",
+  "uid" : "c0825ff30db75a",
+  "name" : "case #14 Remove all products from the cart",
+  "time" : {
+    "start" : 1629986201027,
+    "stop" : 1629986217137,
+    "duration" : 16110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef204e2aedc7b1b",
+  "name" : "case #13 Add the product to the cart",
+  "time" : {
+    "start" : 1629986171431,
+    "stop" : 1629986201027,
+    "duration" : 29596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "955e34e811b69f14",
   "name" : "Case #1 Click on User menu",
   "time" : {
-    "start" : 1629900136218,
-    "stop" : 1629900144208,
-    "duration" : 7990
+    "start" : 1629986078119,
+    "stop" : 1629986087072,
+    "duration" : 8953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93b417c21e58fca",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "time" : {
+    "start" : 1629986087073,
+    "stop" : 1629986097804,
+    "duration" : 10731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1f8145e0a69c81f",
+  "name" : "Case #10 Change language (RU) on main page",
+  "time" : {
+    "start" : 1629986163377,
+    "stop" : 1629986171430,
+    "duration" : 8053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7266390ead859eb",
+  "name" : "case #15 Remove product from the cart",
+  "time" : {
+    "start" : 1629986217139,
+    "stop" : 1629986236472,
+    "duration" : 19333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4423ae24dced9b09",
+  "name" : "Case #9 Change language (UA) on main page",
+  "time" : {
+    "start" : 1629986155681,
+    "stop" : 1629986163377,
+    "duration" : 7696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f039454ea4fbf91a",
+  "name" : "case #8 Using search on main page by product description",
+  "time" : {
+    "start" : 1629986147439,
+    "stop" : 1629986155681,
+    "duration" : 8242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41c0d32377ed223e",
+  "name" : "Case #3 Logout from User menu",
+  "time" : {
+    "start" : 1629986097804,
+    "stop" : 1629986107866,
+    "duration" : 10062
   },
   "status" : "passed",
   "severity" : "normal"

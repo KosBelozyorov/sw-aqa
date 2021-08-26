@@ -1,12 +1,12 @@
 {
-  "uid" : "192809e51258fc4b",
-  "name" : "Case #3 Using search on main page",
-  "fullName" : "Case #3 Using search on main page",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #3 Using search on main page",
+  "uid" : "ceb22dfe5a966376",
+  "name" : "Case #2 Using search on main page",
+  "fullName" : "Case #2 Using search on main page",
+  "historyId" : " test/Smoke/main.test.js Case #2 Using search on main page",
   "time" : {
-    "start" : 1629900156034,
-    "stop" : 1629900163496,
-    "duration" : 7462
+    "start" : 1629986090902,
+    "stop" : 1629986100622,
+    "duration" : 9720
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "42a066a326c50085",
+      "uid" : "7a8a3d59ed28c318",
+      "name" : "screenshot",
+      "source" : "7a8a3d59ed28c318.png",
+      "type" : "image/png",
+      "size" : 315405
+    }, {
+      "uid" : "aa99b644041b4b8e",
       "name" : "stdout",
-      "source" : "42a066a326c50085.txt",
+      "source" : "aa99b644041b4b8e.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "ba8a0845877dea84",
+      "uid" : "c73a488f3e59cae0",
       "name" : "stdout",
-      "source" : "ba8a0845877dea84.txt",
+      "source" : "c73a488f3e59cae0.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "f7196d0bde9e1192",
+      "uid" : "9f868ec8bf687631",
       "name" : "stdout",
-      "source" : "f7196d0bde9e1192.txt",
+      "source" : "9f868ec8bf687631.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -51,9 +57,6 @@
     "name" : "suite",
     "value" : "test/Smoke/main.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -67,6 +70,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "192809e51258fc4b.json",
+  "source" : "ceb22dfe5a966376.json",
   "parameterValues" : [ ]
 }

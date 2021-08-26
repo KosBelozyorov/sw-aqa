@@ -1,12 +1,12 @@
 {
-  "uid" : "3c16aba19c82c95d",
+  "uid" : "955e34e811b69f14",
   "name" : "Case #1 Click on User menu",
   "fullName" : "Case #1 Click on User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #1 Click on User menu",
+  "historyId" : " test/Smoke/header.test.js Case #1 Click on User menu",
   "time" : {
-    "start" : 1629900136218,
-    "stop" : 1629900144208,
-    "duration" : 7990
+    "start" : 1629986078119,
+    "stop" : 1629986087072,
+    "duration" : 8953
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ef38b3cbd28cf832",
+      "uid" : "9b6d489bf7d38b72",
+      "name" : "screenshot",
+      "source" : "9b6d489bf7d38b72.png",
+      "type" : "image/png",
+      "size" : 316848
+    }, {
+      "uid" : "a69485e7238ba379",
       "name" : "stdout",
-      "source" : "ef38b3cbd28cf832.txt",
+      "source" : "a69485e7238ba379.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -39,9 +45,6 @@
     "name" : "suite",
     "value" : "test/Smoke/header.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -55,6 +58,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3c16aba19c82c95d.json",
+  "source" : "955e34e811b69f14.json",
   "parameterValues" : [ ]
 }

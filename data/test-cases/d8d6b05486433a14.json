@@ -1,12 +1,12 @@
 {
-  "uid" : "eb49cf319e5bc078",
+  "uid" : "d8d6b05486433a14",
   "name" : "case #7 Using search on main page by product description",
   "fullName" : "case #7 Using search on main page by product description",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #7 Using search on main page by product description",
+  "historyId" : " test/Smoke/main.test.js case #7 Using search on main page by product description",
   "time" : {
-    "start" : 1629900189660,
-    "stop" : 1629900196158,
-    "duration" : 6498
+    "start" : 1629986139892,
+    "stop" : 1629986147438,
+    "duration" : 7546
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,33 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b3de8dd33f0fbe19",
+      "uid" : "801e16b27b4af150",
+      "name" : "screenshot",
+      "source" : "801e16b27b4af150.png",
+      "type" : "image/png",
+      "size" : 326710
+    }, {
+      "uid" : "50fc5e3f4b1069de",
       "name" : "stdout",
-      "source" : "b3de8dd33f0fbe19.txt",
+      "source" : "50fc5e3f4b1069de.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "f8b160fa5756831c",
+      "uid" : "5909a99a061f03a3",
       "name" : "stdout",
-      "source" : "f8b160fa5756831c.txt",
+      "source" : "5909a99a061f03a3.txt",
       "type" : "text/plain",
       "size" : 33
     }, {
-      "uid" : "cf48fdfe4b813f21",
+      "uid" : "331efee880051304",
       "name" : "stdout",
-      "source" : "cf48fdfe4b813f21.txt",
+      "source" : "331efee880051304.txt",
       "type" : "text/plain",
       "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -51,9 +57,6 @@
     "name" : "suite",
     "value" : "test/Smoke/main.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -67,6 +70,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eb49cf319e5bc078.json",
+  "source" : "d8d6b05486433a14.json",
   "parameterValues" : [ ]
 }

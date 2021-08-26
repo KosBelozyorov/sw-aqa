@@ -1,12 +1,12 @@
 {
-  "uid" : "4f5fd154d4ae56b0",
-  "name" : "Case #3 Logout from User menu",
-  "fullName" : "Case #3 Logout from User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #3 Logout from User menu",
+  "uid" : "a1f8145e0a69c81f",
+  "name" : "Case #10 Change language (RU) on main page",
+  "fullName" : "Case #10 Change language (RU) on main page",
+  "historyId" : " test/Smoke/main.test.js Case #10 Change language (RU) on main page",
   "time" : {
-    "start" : 1629900153032,
-    "stop" : 1629900161743,
-    "duration" : 8711
+    "start" : 1629986163377,
+    "stop" : 1629986171430,
+    "duration" : 8053
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,27 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8088a520f57b8ac5",
+      "uid" : "6f65fdb4ba43e277",
+      "name" : "screenshot",
+      "source" : "6f65fdb4ba43e277.png",
+      "type" : "image/png",
+      "size" : 314876
+    }, {
+      "uid" : "a19f908a4fade077",
       "name" : "stdout",
-      "source" : "8088a520f57b8ac5.txt",
+      "source" : "a19f908a4fade077.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "b600699de632a1ef",
+      "name" : "stdout",
+      "source" : "b600699de632a1ef.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 3,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -37,10 +49,7 @@
     "value" : "Playwright"
   }, {
     "name" : "suite",
-    "value" : "test/Smoke/header.test.js"
-  }, {
-    "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
+    "value" : "test/Smoke/main.test.js"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -55,6 +64,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4f5fd154d4ae56b0.json",
+  "source" : "a1f8145e0a69c81f.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "8d3f06438eaf994d",
-  "name" : "Case #2 Using search on main page",
-  "fullName" : "Case #2 Using search on main page",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: Case #2 Using search on main page",
+  "uid" : "7992c95a98588127",
+  "name" : "Case #1 Login as user and logout",
+  "fullName" : "Case #1 Login as user and logout",
+  "historyId" : " test/Smoke/main.test.js Case #1 Login as user and logout",
   "time" : {
-    "start" : 1629900147549,
-    "stop" : 1629900156035,
-    "duration" : 8486
+    "start" : 1629986078579,
+    "stop" : 1629986090901,
+    "duration" : 12322
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "9e9121041afa4f9f",
+      "uid" : "33454115a2f69059",
+      "name" : "screenshot",
+      "source" : "33454115a2f69059.png",
+      "type" : "image/png",
+      "size" : 667706
+    }, {
+      "uid" : "db5e18cf9ee1dc42",
       "name" : "stdout",
-      "source" : "9e9121041afa4f9f.txt",
+      "source" : "db5e18cf9ee1dc42.txt",
       "type" : "text/plain",
       "size" : 18
-    }, {
-      "uid" : "5eaecc0206bab681",
-      "name" : "stdout",
-      "source" : "5eaecc0206bab681.txt",
-      "type" : "text/plain",
-      "size" : 33
-    }, {
-      "uid" : "273a80691e985cc7",
-      "name" : "stdout",
-      "source" : "273a80691e985cc7.txt",
-      "type" : "text/plain",
-      "size" : 30
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -51,9 +45,6 @@
     "name" : "suite",
     "value" : "test/Smoke/main.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -67,6 +58,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8d3f06438eaf994d.json",
+  "source" : "7992c95a98588127.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "3591307f1cd025fb",
-  "name" : "case #8 Using search on main page by product description",
-  "fullName" : "case #8 Using search on main page by product description",
-  "historyId" : " test/Smoke/main.test.js Suite of Base tests: case #8 Using search on main page by product description",
+  "uid" : "c0825ff30db75a",
+  "name" : "case #14 Remove all products from the cart",
+  "fullName" : "case #14 Remove all products from the cart",
+  "historyId" : " test/Smoke/main.test.js case #14 Remove all products from the cart",
   "time" : {
-    "start" : 1629900196159,
-    "stop" : 1629900203118,
-    "duration" : 6959
+    "start" : 1629986201027,
+    "stop" : 1629986217137,
+    "duration" : 16110
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,27 +16,39 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a22571738f2f375d",
+      "uid" : "f5eb0615487e7976",
+      "name" : "screenshot",
+      "source" : "f5eb0615487e7976.png",
+      "type" : "image/png",
+      "size" : 264642
+    }, {
+      "uid" : "8800e7fe411840b4",
       "name" : "stdout",
-      "source" : "a22571738f2f375d.txt",
+      "source" : "8800e7fe411840b4.txt",
       "type" : "text/plain",
       "size" : 18
     }, {
-      "uid" : "498b012309c9e799",
+      "uid" : "63c7047e9e697879",
       "name" : "stdout",
-      "source" : "498b012309c9e799.txt",
+      "source" : "63c7047e9e697879.txt",
       "type" : "text/plain",
       "size" : 34
     }, {
-      "uid" : "2b7721cdfea60914",
+      "uid" : "46174ff37837187d",
       "name" : "stdout",
-      "source" : "2b7721cdfea60914.txt",
+      "source" : "46174ff37837187d.txt",
       "type" : "text/plain",
       "size" : 30
+    }, {
+      "uid" : "4bdbc7f9f6467963",
+      "name" : "stdout",
+      "source" : "4bdbc7f9f6467963.txt",
+      "type" : "text/plain",
+      "size" : 18
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 5,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
@@ -51,9 +63,6 @@
     "name" : "suite",
     "value" : "test/Smoke/main.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of Base tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -67,6 +76,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3591307f1cd025fb.json",
+  "source" : "c0825ff30db75a.json",
   "parameterValues" : [ ]
 }

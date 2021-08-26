@@ -1,12 +1,12 @@
 {
-  "uid" : "26dd11b6356f5754",
-  "name" : "Case #2 Go to Profile page from User menu",
-  "fullName" : "Case #2 Go to Profile page from User menu",
-  "historyId" : " test/Smoke/header.test.js Suite of the Heder menu tests: Case #2 Go to Profile page from User menu",
+  "uid" : "41c0d32377ed223e",
+  "name" : "Case #3 Logout from User menu",
+  "fullName" : "Case #3 Logout from User menu",
+  "historyId" : " test/Smoke/header.test.js Case #3 Logout from User menu",
   "time" : {
-    "start" : 1629900144208,
-    "stop" : 1629900153032,
-    "duration" : 8824
+    "start" : 1629986097804,
+    "stop" : 1629986107866,
+    "duration" : 10062
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "feceddd39bdb3f8b",
-      "name" : "stdout",
-      "source" : "feceddd39bdb3f8b.txt",
-      "type" : "text/plain",
-      "size" : 18
+      "uid" : "eb3bd1d28901ff82",
+      "name" : "screenshot",
+      "source" : "eb3bd1d28901ff82.png",
+      "type" : "image/png",
+      "size" : 667706
     }, {
-      "uid" : "3c18695d08c6cb8b",
+      "uid" : "f7ba57aaf59ff0b7",
       "name" : "stdout",
-      "source" : "3c18695d08c6cb8b.txt",
+      "source" : "f7ba57aaf59ff0b7.txt",
       "type" : "text/plain",
       "size" : 18
     } ],
@@ -45,9 +45,6 @@
     "name" : "suite",
     "value" : "test/Smoke/header.test.js"
   }, {
-    "name" : "subSuite",
-    "value" : "Suite of the Heder menu tests:"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -61,6 +58,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "26dd11b6356f5754.json",
+  "source" : "41c0d32377ed223e.json",
   "parameterValues" : [ ]
 }
