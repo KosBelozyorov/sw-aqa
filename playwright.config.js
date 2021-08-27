@@ -9,7 +9,7 @@ const config = {
       slowMo: 0,
     },
     screenshot: 'on',
-    video: 'retry-with-video',
+    video: 'retain-on-failure',
     trace: 'retain-on-failure',
   },
   // workers: 1,
