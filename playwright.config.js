@@ -8,10 +8,11 @@ const config = {
     launchOptions: {
       slowMo: 0,
     },
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
     video: 'retry-with-video',
     trace: 'retain-on-failure',
   },
+  // workers: 1,
   testMatch: ['/test/**/*.test.js'],
   retries: 1, // count of retries of failing test
   reporter: [['list'], ['experimental-allure-playwright']],

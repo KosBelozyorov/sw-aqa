@@ -18,248 +18,257 @@ const {
   SEARCH_CATEGORY,
 } = require('../../framework/constants');
 
-test.describe('Suite of Base tests:', () => {
-  let page = Page;
+test.beforeEach(async ({ page }) => {
+  // interception of yandex metrica requests
+  page.route('**', route => {
+    const request = route.request();
+    // console.log('request url: ', request.url());
+    if (request.url().match('yandex') || request.url().match('metrika')) {
+      // eslint-disable-next-line no-console
+      console.log('blocked by client');
+      return route.abort('blockedbyclient');
+    }
 
-  test.beforeEach(async ({ browser }) => {
-    const context = await browser.newContext();
-    page = await context.newPage();
-    // interception of yandex metrica requests
-    page.route('**', route => {
-      const request = route.request();
-      // console.log('request url: ', request.url());
-      if (request.url().match('yandex') || request.url().match('metrika')) {
-        // eslint-disable-next-line no-console
-        console.log('blocked by client');
-        return route.abort('blockedbyclient');
-      }
-
-      return route.continue();
-    });
-
-    await page.goto(DEV_LOGIN_PAGE_URL);
+    return route.continue();
   });
 
-  test.afterEach(async () => {
-    await page.close();
-  });
+  await page.goto(DEV_LOGIN_PAGE_URL);
+});
 
-  test('Case #1 Login as user and logout', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const sideMenuPage = new SideMenuPage(page);
+test.afterEach(async ({ page, context }) => {
+  await context.close();
+  await page.close();
+});
 
-    await loginPage.loginAsUser();
-    expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
-    await page.screenshot({ path: `../screenshots/login_as_user_case_1.png` });
+test('Case #1 Login as user and logout', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const sideMenuPage = new SideMenuPage(page);
 
-    await sideMenuPage.logout();
-    expect(await loginPage.gotoLoginPage()).toEqual(DEV_LOGIN_PAGE_URL);
-    await page.screenshot({ path: `../screenshots/logout_as_user_case_1.png` });
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
+  // await page.screenshot({ path: `login_as_user_case_1.png` });
 
-  test('Case #2 Using search on main page', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  await sideMenuPage.logout();
+  expect(await loginPage.gotoLoginPage()).toEqual(DEV_LOGIN_PAGE_URL);
+  // await page.screenshot({ path: `logout_as_user_case_1.png` });
+});
 
-    await loginPage.loginAsUser();
+test('Case #2 Using search on main page', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(
-      await mainPage.useSearch(SEARCH_CATEGORY.second, SEARCH_KEY_WORD.second),
-    ).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
 
-  test('Case #3 Using search on main page', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(
+    await mainPage.useSearch(SEARCH_CATEGORY.second, SEARCH_KEY_WORD.second),
+  ).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
+test('Case #3 Using search on main page', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(
-      await mainPage.useSearch(SEARCH_CATEGORY.third, SEARCH_KEY_WORD.third),
-    ).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
 
-  test('case #4 Using search on main page', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(await mainPage.useSearch(SEARCH_CATEGORY.third, SEARCH_KEY_WORD.third))
+    .toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+test('case #4 Using search on main page', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(
-      await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth),
-    ).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
 
-  test('case #5 Using search on main page by product code', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(
+    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth),
+  ).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch('', SEARCH_KEY_WORD.fifth);
+test('case #5 Using search on main page by product code', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(await mainPage.useSearch('', SEARCH_KEY_WORD.fifth)).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch('', SEARCH_KEY_WORD.fifth);
 
-  test('case #6 Using search on main page by product description', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(await mainPage.useSearch('', SEARCH_KEY_WORD.fifth)).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.uncheckSearchInProductName();
-    await mainPage.useSearch('', SEARCH_KEY_WORD.sixth);
+test('case #6 Using search on main page by product description', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(await mainPage.useSearch('', SEARCH_KEY_WORD.sixth)).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.uncheckSearchInProductName();
+  await mainPage.useSearch('', SEARCH_KEY_WORD.sixth);
 
-  test('case #7 Using search on main page by product description', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(await mainPage.useSearch('', SEARCH_KEY_WORD.sixth)).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.uncheckSearchInProductName();
+test('case #7 Using search on main page by product description', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(
-      await mainPage.useSearch(SEARCH_CATEGORY.second, SEARCH_KEY_WORD.sixth),
-    ).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.uncheckSearchInProductName();
 
-  test('case #8 Using search on main page by product description', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(
+    await mainPage.useSearch(SEARCH_CATEGORY.second, SEARCH_KEY_WORD.sixth),
+  ).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.uncheckSearchInProductName();
+test('case #8 Using search on main page by product description', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(
-      await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.sixth),
-    ).toBeTruthy;
-  });
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.uncheckSearchInProductName();
 
-  test('Case #9 Change language (UA) on main page', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const headerPage = new HeaderPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.sixth))
+    .toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
+test('Case #9 Change language (UA) on main page', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const headerPage = new HeaderPage(page);
 
-    await headerPage.changeLanguage('UA');
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
 
-    expect(await mainPage.getMainPageTitleContent()).toContain(
-      'Головна панель',
-    );
-  });
+  await headerPage.changeLanguage('UA');
 
-  test('Case #10 Change language (RU) on main page', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const headerPage = new HeaderPage(page);
+  expect(await mainPage.getMainPageTitleContent()).toContain('Головна панель');
+});
 
-    await loginPage.loginAsUser();
-    expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
+test('Case #10 Change language (RU) on main page', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const headerPage = new HeaderPage(page);
 
-    await headerPage.changeLanguage('RU');
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  expect(await mainPage.gotoMainPage()).toEqual(DEV_MAIN_PAGE_URL);
 
-    expect(await mainPage.getMainPageTitleContent()).toContain(
-      'Главная панель',
-    );
-  });
+  await headerPage.changeLanguage('RU');
 
-  test('case #13 Add the product to the cart', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const productPage = new ProductPage(page);
+  expect(await mainPage.getMainPageTitleContent()).toContain('Главная панель');
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+test('case #13 Add the product to the cart', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const productPage = new ProductPage(page);
 
-    await mainPage.clickOnProductFromSearchResult();
-    expect(await productPage.getProductPageUrl()).toEqual(
-      'https://b2b-dev2.sanwell.biz/catalog/2875',
-    );
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
 
-    await productPage.plusOneProduct();
-    await productPage.addToCart();
+  await mainPage.clickOnProductFromSearchResult();
+  expect(await productPage.getProductPageUrl()).toEqual(
+    'https://b2b-dev2.sanwell.biz/catalog/2875',
+  );
 
-    // eslint-disable-next-line no-unused-expressions
-    expect(await productPage.checkProductInCart()).toBeTruthy;
-  });
+  await productPage.plusOneProduct();
+  await productPage.addToCart();
 
-  test('case #14 Remove all products from the cart', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const cartPage = new CartPage(page);
-    const productPage = new ProductPage(page);
+  // eslint-disable-next-line no-unused-expressions
+  expect(await productPage.checkProductInCart()).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+test('case #14 Remove all products from the cart', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const cartPage = new CartPage(page);
+  const productPage = new ProductPage(page);
 
-    await mainPage.clickOnProductFromSearchResult();
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
 
-    await productPage.plusOneProduct();
-    await productPage.addToCart();
-    await cartPage.clickOnCartButton();
-    await cartPage.clickOnRemoveAllProductsButton();
-    // eslint-disable-next-line no-unused-expressions
-    expect(await cartPage.isCartEmpty()).toBeTruthy;
-  });
+  await mainPage.clickOnProductFromSearchResult();
 
-  test('case #15 Remove product from the cart', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const cartPage = new CartPage(page);
-    const productPage = new ProductPage(page);
+  await productPage.plusOneProduct();
+  await productPage.addToCart();
+  await cartPage.clickOnCartButton();
+  await cartPage.clickOnRemoveAllProductsButton();
+  // eslint-disable-next-line no-unused-expressions
+  expect(await cartPage.isCartEmpty()).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+test('case #15 Remove product from the cart', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const cartPage = new CartPage(page);
+  const productPage = new ProductPage(page);
 
-    await mainPage.clickOnProductFromSearchResult();
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
 
-    await productPage.plusOneProduct();
-    await productPage.addToCart();
-    await cartPage.clickOnCartButton();
-    await cartPage.clickOnRemoveProductButton();
-    // eslint-disable-next-line no-unused-expressions
-    expect(await cartPage.isCartEmpty()).toBeTruthy;
-  });
+  await mainPage.clickOnProductFromSearchResult();
 
-  test('case #16 Create order', async () => {
-    const loginPage = new LoginPage(page);
-    const mainPage = new MainPage(page);
-    const productPage = new ProductPage(page);
-    const checkoutPage = new CheckoutPage(page);
+  await productPage.plusOneProduct();
+  await productPage.addToCart();
+  await cartPage.clickOnCartButton();
+  await cartPage.clickOnRemoveProductButton();
+  // eslint-disable-next-line no-unused-expressions
+  expect(await cartPage.isCartEmpty()).toBeTruthy;
+});
 
-    await loginPage.loginAsUser();
-    await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+test('case #16 Create order', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const productPage = new ProductPage(page);
+  const checkoutPage = new CheckoutPage(page);
 
-    await mainPage.clickOnProductFromSearchResult();
-    // expect(await productPage.getProductPageUrl()).toEqual(
-    //   'https://b2b-dev2.sanwell.biz/catalog/2875',
-    // );
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
 
-    await productPage.plusOneProduct();
-    await productPage.addToCart();
-    // await productPage.clickOnCartButton();
-    // eslint-disable-next-line no-unused-expressions
-    expect(await productPage.checkProductInCart()).toBeTruthy;
+  await mainPage.clickOnProductFromSearchResult();
+  // expect(await productPage.getProductPageUrl()).toEqual(
+  //   'https://b2b-dev2.sanwell.biz/catalog/2875',
+  // );
 
-    await productPage.clickOnCheckoutButton();
-    expect(await checkoutPage.getCheckoutPageUrl()).toEqual(
-      DEV_CHECKOUT_PAGE_URL,
-    );
+  await productPage.plusOneProduct();
+  await productPage.addToCart();
+  // await productPage.clickOnCartButton();
+  // eslint-disable-next-line no-unused-expressions
+  expect(await productPage.checkProductInCart()).toBeTruthy;
 
-    // await checkoutPage.getCheckout();
-    // expect(await checkoutPage.getCheckout()).toContain(
-    //   'https://b2b-dev2.sanwell.biz/orders/view?id=',
-    // );
-  });
+  await productPage.clickOnCheckoutButton();
+  expect(await checkoutPage.getCheckoutPageUrl()).toEqual(
+    DEV_CHECKOUT_PAGE_URL,
+  );
+
+  // await checkoutPage.getCheckout();
+  // expect(await checkoutPage.getCheckout()).toContain(
+  //   'https://b2b-dev2.sanwell.biz/orders/view?id=',
+  // );
 });
