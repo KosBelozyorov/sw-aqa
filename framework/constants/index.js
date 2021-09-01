@@ -12,6 +12,8 @@ const brandsPageConstants = require('./brandsPageConstants');
 const profilePageConstants = require('./profilePageConstants');
 const checkoutPageConstants = require('./checkoutPageConstants');
 const productPageConstants = require('./productPageConstants');
+const adminOrdersPageConstants = require('./adminOrdersPageConstants');
+const adminDocsGroupsPageConstants = require('./adminDocsGroupsPageConstants');
 
 module.exports = {
   ...loginPageConstants,
@@ -28,4 +30,6 @@ module.exports = {
   ...profilePageConstants,
   ...checkoutPageConstants,
   ...productPageConstants,
+  ...adminOrdersPageConstants,
+  ...adminDocsGroupsPageConstants,
 };

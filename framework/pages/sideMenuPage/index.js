@@ -10,6 +10,9 @@ const {
   SIDE_MENU_BRANDS_PAGE,
   SIDE_MENU_PROFILE_PAGE,
   SIDE_MENU_LOGOUT,
+  SIDE_MENU_ADMIN_DOCS,
+  SIDE_MENU_ADMIN_DOCS_PAGE,
+  SIDE_MENU_ADMIN_DOCS_GROUPS_PAGE,
 } = require('../../constants');
 
 class SideMenuPage {
@@ -64,6 +67,26 @@ class SideMenuPage {
 
   async gotoDocsPage() {
     await this.page.click(SIDE_MENU_DOCS_PAGE);
+    await this.page.waitForLoadState('networkidle');
+
+    const pageUrl = await this.page.url();
+
+    return pageUrl;
+  }
+
+  async gotoAdminDocsPage() {
+    await this.page.click(SIDE_MENU_ADMIN_DOCS);
+    await this.page.click(SIDE_MENU_ADMIN_DOCS_PAGE);
+    await this.page.waitForLoadState('networkidle');
+
+    const pageUrl = await this.page.url();
+
+    return pageUrl;
+  }
+
+  async gotoAdminDocsGroupPage() {
+    await this.page.click(SIDE_MENU_ADMIN_DOCS);
+    await this.page.click(SIDE_MENU_ADMIN_DOCS_GROUPS_PAGE);
     await this.page.waitForLoadState('networkidle');
 
     const pageUrl = await this.page.url();

@@ -14,6 +14,8 @@ const brandsPage = require('./brandsPage');
 const profilePage = require('./profilePage');
 const productPage = require('./productPage');
 const checkoutPage = require('./checkoutPage');
+const adminOrdersPage = require('./adminOrdersPage');
+const adminDocsGroupsPage = require('./adminDocsGroupsPage');
 
 module.exports = {
   ...loginPage,
@@ -32,4 +34,6 @@ module.exports = {
   ...profilePage,
   ...productPage,
   ...checkoutPage,
+  ...adminOrdersPage,
+  ...adminDocsGroupsPage,
 };
