@@ -1,0 +1,85 @@
+{
+  "uid" : "c4c006468771aac6",
+  "name" : "case #4 Using search on main page",
+  "fullName" : "case #4 Using search on main page",
+  "historyId" : " test\\Smoke\\main.test.js case #4 Using search on main page",
+  "time" : {
+    "start" : 1630570654724,
+    "stop" : 1630570673314,
+    "duration" : 18590
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32a527ec11e21c91",
+      "name" : "screenshot",
+      "source" : "32a527ec11e21c91.png",
+      "type" : "image/png",
+      "size" : 312322
+    }, {
+      "uid" : "1024495a1d931cfd",
+      "name" : "stdout",
+      "source" : "1024495a1d931cfd.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "82e68110ec722b81",
+      "name" : "stdout",
+      "source" : "82e68110ec722b81.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "7e7e2e3c3db17b3e",
+      "name" : "stdout",
+      "source" : "7e7e2e3c3db17b3e.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "f84f5b239774eb8d",
+      "name" : "stdout",
+      "source" : "f84f5b239774eb8d.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "c2f3c394d0bd7915",
+      "name" : "stdout",
+      "source" : "c2f3c394d0bd7915.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4c006468771aac6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "47653ceb3317956d",
+  "name" : "Case #3 Logout from User menu",
+  "fullName" : "Case #3 Logout from User menu",
+  "historyId" : " test\\Smoke\\header.test.js Case #3 Logout from User menu",
+  "time" : {
+    "start" : 1630571205476,
+    "stop" : 1630571218174,
+    "duration" : 12698
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68d94c79bcb403a5",
+      "name" : "screenshot",
+      "source" : "68d94c79bcb403a5.png",
+      "type" : "image/png",
+      "size" : 662355
+    }, {
+      "uid" : "d69f2f259d55c5dc",
+      "name" : "stdout",
+      "source" : "d69f2f259d55c5dc.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\header.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bd9d708b76fc2ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570657234,
+        "stop" : 1630570670868,
+        "duration" : 13634
+      }
+    }, {
+      "uid" : "d3b25b10ba6e14a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569825037,
+        "stop" : 1630569836711,
+        "duration" : 11674
+      }
+    }, {
+      "uid" : "12240d512358421c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630566956822,
+        "stop" : 1630566968972,
+        "duration" : 12150
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47653ceb3317956d.json",
+  "parameterValues" : [ ]
+}

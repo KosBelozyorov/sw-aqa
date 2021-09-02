@@ -1,0 +1,97 @@
+{
+  "uid" : "7fdddd58614c1483",
+  "name" : "Case #4 Edit Group in Docs Groups",
+  "fullName" : "Case #4 Edit Group in Docs Groups",
+  "historyId" : " test\\Smoke\\docs-group.test.js Case #4 Edit Group in Docs Groups",
+  "time" : {
+    "start" : 1630570319525,
+    "stop" : 1630570328473,
+    "duration" : 8948
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29ab136e879efcdc",
+      "name" : "screenshot",
+      "source" : "29ab136e879efcdc.png",
+      "type" : "image/png",
+      "size" : 114897
+    }, {
+      "uid" : "6da2312f624e44b",
+      "name" : "stdout",
+      "source" : "6da2312f624e44b.txt",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "b253ae05663daf5c",
+      "name" : "stdout",
+      "source" : "b253ae05663daf5c.txt",
+      "type" : "text/plain",
+      "size" : 40
+    }, {
+      "uid" : "a7456912fd0c338e",
+      "name" : "stdout",
+      "source" : "a7456912fd0c338e.txt",
+      "type" : "text/plain",
+      "size" : 24
+    }, {
+      "uid" : "8d9a1dd0e1f8a8e2",
+      "name" : "stdout",
+      "source" : "8d9a1dd0e1f8a8e2.txt",
+      "type" : "text/plain",
+      "size" : 27
+    }, {
+      "uid" : "6321a45d927e48c0",
+      "name" : "stdout",
+      "source" : "6321a45d927e48c0.txt",
+      "type" : "text/plain",
+      "size" : 27
+    }, {
+      "uid" : "ce365df8070c0107",
+      "name" : "stdout",
+      "source" : "ce365df8070c0107.txt",
+      "type" : "text/plain",
+      "size" : 24
+    }, {
+      "uid" : "25cf6a5a9923ea1c",
+      "name" : "stdout",
+      "source" : "25cf6a5a9923ea1c.txt",
+      "type" : "text/plain",
+      "size" : 24
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\docs-group.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fdddd58614c1483.json",
+  "parameterValues" : [ ]
+}

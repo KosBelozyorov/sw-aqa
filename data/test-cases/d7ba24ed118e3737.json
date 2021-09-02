@@ -1,0 +1,97 @@
+{
+  "uid" : "d7ba24ed118e3737",
+  "name" : "case #16 Create order",
+  "fullName" : "case #16 Create order",
+  "historyId" : " test\\Smoke\\main.test.js case #16 Create order",
+  "time" : {
+    "start" : 1630567102909,
+    "stop" : 1630567123732,
+    "duration" : 20823
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1faaf8a51d5e03f6",
+      "name" : "screenshot",
+      "source" : "1faaf8a51d5e03f6.png",
+      "type" : "image/png",
+      "size" : 139147
+    }, {
+      "uid" : "cf518a9bad99f39c",
+      "name" : "stdout",
+      "source" : "cf518a9bad99f39c.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "b3e7820a63ed03b6",
+      "name" : "stdout",
+      "source" : "b3e7820a63ed03b6.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "ec33092a6ae77002",
+      "name" : "stdout",
+      "source" : "ec33092a6ae77002.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "2cb88a4a93324399",
+      "name" : "stdout",
+      "source" : "2cb88a4a93324399.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "edd2c3d0384a6075",
+      "name" : "stdout",
+      "source" : "edd2c3d0384a6075.txt",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "dbabe2fbaaf662",
+      "name" : "stdout",
+      "source" : "dbabe2fbaaf662.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "9763261e83059959",
+      "name" : "stdout",
+      "source" : "9763261e83059959.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7ba24ed118e3737.json",
+  "parameterValues" : [ ]
+}

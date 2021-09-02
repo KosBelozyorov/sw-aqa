@@ -1,0 +1,105 @@
+{
+  "uid" : "d66d8fc90921cecc",
+  "name" : "Case #3 Add new Group in Docs Groups",
+  "fullName" : "Case #3 Add new Group in Docs Groups",
+  "historyId" : " test\\Smoke\\docs-group.test.js Case #3 Add new Group in Docs Groups",
+  "time" : {
+    "start" : 1630571204717,
+    "stop" : 1630571218406,
+    "duration" : 13689
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84fa55692684c8d6",
+      "name" : "screenshot",
+      "source" : "84fa55692684c8d6.png",
+      "type" : "image/png",
+      "size" : 112226
+    }, {
+      "uid" : "7a11acb63d261739",
+      "name" : "stdout",
+      "source" : "7a11acb63d261739.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "e148f91e3c2fe294",
+      "name" : "stdout",
+      "source" : "e148f91e3c2fe294.txt",
+      "type" : "text/plain",
+      "size" : 47
+    }, {
+      "uid" : "9601bf4f68d1916",
+      "name" : "stdout",
+      "source" : "9601bf4f68d1916.txt",
+      "type" : "text/plain",
+      "size" : 43
+    }, {
+      "uid" : "39ad866fcf4d3027",
+      "name" : "stdout",
+      "source" : "39ad866fcf4d3027.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\docs-group.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fe1452924d661862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570604730,
+        "stop" : 1630570613088,
+        "duration" : 8358
+      }
+    }, {
+      "uid" : "2eb85569beaec6f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569822847,
+        "stop" : 1630569835898,
+        "duration" : 13051
+      }
+    }, {
+      "uid" : "efbce26059532792",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630566954631,
+        "stop" : 1630566968983,
+        "duration" : 14352
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d66d8fc90921cecc.json",
+  "parameterValues" : [ ]
+}

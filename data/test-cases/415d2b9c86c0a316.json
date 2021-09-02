@@ -1,0 +1,177 @@
+{
+  "uid" : "415d2b9c86c0a316",
+  "name" : "Case #4 Edit Group in Docs Groups",
+  "fullName" : "Case #4 Edit Group in Docs Groups",
+  "historyId" : " test\\Smoke\\docs-group.test.js Case #4 Edit Group in Docs Groups",
+  "time" : {
+    "start" : 1630571218406,
+    "stop" : 1630571232485,
+    "duration" : 14079
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29ab136e879efcdc",
+      "name" : "screenshot",
+      "source" : "29ab136e879efcdc.png",
+      "type" : "image/png",
+      "size" : 114897
+    }, {
+      "uid" : "90d2121392128511",
+      "name" : "stdout",
+      "source" : "90d2121392128511.txt",
+      "type" : "text/plain",
+      "size" : 23
+    }, {
+      "uid" : "7fa48fd9f23800b7",
+      "name" : "stdout",
+      "source" : "7fa48fd9f23800b7.txt",
+      "type" : "text/plain",
+      "size" : 50
+    }, {
+      "uid" : "eceba6b95c7e41fa",
+      "name" : "stdout",
+      "source" : "eceba6b95c7e41fa.txt",
+      "type" : "text/plain",
+      "size" : 24
+    }, {
+      "uid" : "967016ea4957e6d8",
+      "name" : "stdout",
+      "source" : "967016ea4957e6d8.txt",
+      "type" : "text/plain",
+      "size" : 28
+    }, {
+      "uid" : "1e72653196aa8255",
+      "name" : "stdout",
+      "source" : "1e72653196aa8255.txt",
+      "type" : "text/plain",
+      "size" : 28
+    }, {
+      "uid" : "55cd0608009b3715",
+      "name" : "stdout",
+      "source" : "55cd0608009b3715.txt",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "b345cabf3532a042",
+      "name" : "stdout",
+      "source" : "b345cabf3532a042.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\docs-group.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "586c8e92e71e0993",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630570629398,
+        "stop" : 1630570642718,
+        "duration" : 13320
+      }
+    }, {
+      "uid" : "ac67c56ffe02a9c9",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630570613089,
+        "stop" : 1630570620692,
+        "duration" : 7603
+      }
+    }, {
+      "uid" : "7fdddd58614c1483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570319525,
+        "stop" : 1630570328473,
+        "duration" : 8948
+      }
+    }, {
+      "uid" : "c8f66d3cbaf99eef",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630569989687,
+        "stop" : 1630569997300,
+        "duration" : 7613
+      }
+    }, {
+      "uid" : "e4d074581d096795",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630569835898,
+        "stop" : 1630569847829,
+        "duration" : 11931
+      }
+    }, {
+      "uid" : "3daaa1c2e8f2ef71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630567705911,
+        "stop" : 1630567714525,
+        "duration" : 8614
+      }
+    }, {
+      "uid" : "269998bb813482e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630567389159,
+        "stop" : 1630567431723,
+        "duration" : 42564
+      }
+    }, {
+      "uid" : "cc94e4882e26079b",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630567123744,
+        "stop" : 1630567131145,
+        "duration" : 7401
+      }
+    }, {
+      "uid" : "a7545ff3fe0d518",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeTruthy()\n\nReceived: false",
+      "time" : {
+        "start" : 1630566968984,
+        "stop" : 1630566981095,
+        "duration" : 12111
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "415d2b9c86c0a316.json",
+  "parameterValues" : [ ]
+}

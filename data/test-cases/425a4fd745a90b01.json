@@ -1,0 +1,123 @@
+{
+  "uid" : "425a4fd745a90b01",
+  "name" : "case #16 Create order",
+  "fullName" : "case #16 Create order",
+  "historyId" : " test\\Smoke\\main.test.js case #16 Create order",
+  "time" : {
+    "start" : 1630571364506,
+    "stop" : 1630571384919,
+    "duration" : 20413
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1faaf8a51d5e03f6",
+      "name" : "screenshot",
+      "source" : "1faaf8a51d5e03f6.png",
+      "type" : "image/png",
+      "size" : 139147
+    }, {
+      "uid" : "f722e332d3baa1c5",
+      "name" : "stdout",
+      "source" : "f722e332d3baa1c5.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "c5f5eb8821d008bd",
+      "name" : "stdout",
+      "source" : "c5f5eb8821d008bd.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "47932bd3e75f900f",
+      "name" : "stdout",
+      "source" : "47932bd3e75f900f.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "d03de736bb943234",
+      "name" : "stdout",
+      "source" : "d03de736bb943234.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "dd6cb3231d1c8613",
+      "name" : "stdout",
+      "source" : "dd6cb3231d1c8613.txt",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "8a6dacaea363d701",
+      "name" : "stdout",
+      "source" : "8a6dacaea363d701.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "765468b1900f4fb8",
+      "name" : "stdout",
+      "source" : "765468b1900f4fb8.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9224468c0ea13a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570773592,
+        "stop" : 1630570793776,
+        "duration" : 20184
+      }
+    }, {
+      "uid" : "ef9426680b7a5c08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569969322,
+        "stop" : 1630569989677,
+        "duration" : 20355
+      }
+    }, {
+      "uid" : "d7ba24ed118e3737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630567102909,
+        "stop" : 1630567123732,
+        "duration" : 20823
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "425a4fd745a90b01.json",
+  "parameterValues" : [ ]
+}

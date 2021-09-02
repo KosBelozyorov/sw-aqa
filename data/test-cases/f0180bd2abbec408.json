@@ -1,0 +1,87 @@
+{
+  "uid" : "f0180bd2abbec408",
+  "name" : "Case #1 Login as user and logout",
+  "fullName" : "Case #1 Login as user and logout",
+  "historyId" : " test\\Smoke\\main.test.js Case #1 Login as user and logout",
+  "time" : {
+    "start" : 1630571218186,
+    "stop" : 1630571232501,
+    "duration" : 14315
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a99c8471d191d73",
+      "name" : "screenshot",
+      "source" : "1a99c8471d191d73.png",
+      "type" : "image/png",
+      "size" : 662355
+    }, {
+      "uid" : "64611aa4e64bd632",
+      "name" : "stdout",
+      "source" : "64611aa4e64bd632.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1f096e7b982d6108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570622319,
+        "stop" : 1630570632092,
+        "duration" : 9773
+      }
+    }, {
+      "uid" : "e116b0841ac2fda9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569836726,
+        "stop" : 1630569848532,
+        "duration" : 11806
+      }
+    }, {
+      "uid" : "b224ad24616421bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630566968986,
+        "stop" : 1630566981094,
+        "duration" : 12108
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0180bd2abbec408.json",
+  "parameterValues" : [ ]
+}

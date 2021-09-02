@@ -1,0 +1,65 @@
+{
+  "uid" : "26cba27827f19666",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "fullName" : "Case #2 Go to Profile page from User menu",
+  "historyId" : " test\\Smoke\\header.test.js Case #2 Go to Profile page from User menu",
+  "time" : {
+    "start" : 1630570644875,
+    "stop" : 1630570657234,
+    "duration" : 12359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "2b239fbae9efd451",
+      "name" : "stdout",
+      "source" : "2b239fbae9efd451.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "18e2214ec1c97abb",
+      "name" : "stdout",
+      "source" : "18e2214ec1c97abb.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\header.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26cba27827f19666.json",
+  "parameterValues" : [ ]
+}

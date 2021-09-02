@@ -1,0 +1,79 @@
+{
+  "uid" : "ed25b86adb6b1466",
+  "name" : "case #15 Remove product from the cart",
+  "fullName" : "case #15 Remove product from the cart",
+  "historyId" : " test\\Smoke\\main.test.js case #15 Remove product from the cart",
+  "time" : {
+    "start" : 1630570755860,
+    "stop" : 1630570773592,
+    "duration" : 17732
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77c14140a6f7d56e",
+      "name" : "screenshot",
+      "source" : "77c14140a6f7d56e.png",
+      "type" : "image/png",
+      "size" : 256794
+    }, {
+      "uid" : "9df28d88eda7bc5b",
+      "name" : "stdout",
+      "source" : "9df28d88eda7bc5b.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "1f0a1ee9f10d9502",
+      "name" : "stdout",
+      "source" : "1f0a1ee9f10d9502.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "9cfe30c48ecb6bc4",
+      "name" : "stdout",
+      "source" : "9cfe30c48ecb6bc4.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "6d2764cd3943fbb3",
+      "name" : "stdout",
+      "source" : "6d2764cd3943fbb3.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed25b86adb6b1466.json",
+  "parameterValues" : [ ]
+}

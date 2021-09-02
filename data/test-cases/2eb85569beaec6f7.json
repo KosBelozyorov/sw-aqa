@@ -1,0 +1,79 @@
+{
+  "uid" : "2eb85569beaec6f7",
+  "name" : "Case #3 Add new Group in Docs Groups",
+  "fullName" : "Case #3 Add new Group in Docs Groups",
+  "historyId" : " test\\Smoke\\docs-group.test.js Case #3 Add new Group in Docs Groups",
+  "time" : {
+    "start" : 1630569822847,
+    "stop" : 1630569835898,
+    "duration" : 13051
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84fa55692684c8d6",
+      "name" : "screenshot",
+      "source" : "84fa55692684c8d6.png",
+      "type" : "image/png",
+      "size" : 112226
+    }, {
+      "uid" : "8c3becc81bad3dd2",
+      "name" : "stdout",
+      "source" : "8c3becc81bad3dd2.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "ffa468e7bfd9645a",
+      "name" : "stdout",
+      "source" : "ffa468e7bfd9645a.txt",
+      "type" : "text/plain",
+      "size" : 47
+    }, {
+      "uid" : "94835fe5ee03f59",
+      "name" : "stdout",
+      "source" : "94835fe5ee03f59.txt",
+      "type" : "text/plain",
+      "size" : 43
+    }, {
+      "uid" : "8a121491dacf6c95",
+      "name" : "stdout",
+      "source" : "8a121491dacf6c95.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\docs-group.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eb85569beaec6f7.json",
+  "parameterValues" : [ ]
+}

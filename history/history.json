@@ -1,5 +1,5 @@
 {
-  " test/Smoke/main.test.js Case #9 Change language (UA) on main page" : {
+  " test\\Smoke\\docs-group.test.js Case #2 Click [Add new Group] button in Docs Groups" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4423ae24dced9b09",
+      "uid" : "760b07187e8b26e2",
       "status" : "passed",
       "time" : {
-        "start" : 1629986155681,
-        "stop" : 1629986163377,
-        "duration" : 7696
+        "start" : 1630571195511,
+        "stop" : 1630571204716,
+        "duration" : 9205
       }
     } ]
   },
-  " test/Smoke/main.test.js Case #3 Using search on main page" : {
+  " test\\Smoke\\main.test.js case #16 Create order" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,16 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1917d08905885479",
+      "uid" : "425a4fd745a90b01",
       "status" : "passed",
       "time" : {
-        "start" : 1629986100622,
-        "stop" : 1629986109491,
-        "duration" : 8869
+        "start" : 1630571364506,
+        "stop" : 1630571384919,
+        "duration" : 20413
       }
     } ]
   },
-  " test/Smoke/header.test.js Case #2 Go to Profile page from User menu" : {
+  " test\\Smoke\\docs-group.test.js Case #1 Click on Docs Group" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,16 +47,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "93b417c21e58fca",
+      "uid" : "851860c0c9d3efd1",
       "status" : "passed",
       "time" : {
-        "start" : 1629986087073,
-        "stop" : 1629986097804,
-        "duration" : 10731
+        "start" : 1630571185084,
+        "stop" : 1630571195511,
+        "duration" : 10427
       }
     } ]
   },
-  " test/Smoke/main.test.js case #16 Create order" : {
+  " test\\Smoke\\main.test.js case #15 Remove product from the cart" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,16 +66,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6debee5bb2d51eb1",
+      "uid" : "7405da0c68cd8be2",
       "status" : "passed",
       "time" : {
-        "start" : 1629986236472,
-        "stop" : 1629986258281,
-        "duration" : 21809
+        "start" : 1630571345877,
+        "stop" : 1630571364507,
+        "duration" : 18630
       }
     } ]
   },
-  " test/Smoke/main.test.js case #13 Add the product to the cart" : {
+  " test\\Smoke\\main.test.js Case #2 Using search on main page" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -85,16 +85,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef204e2aedc7b1b",
+      "uid" : "b63e8c7c4e2f156f",
       "status" : "passed",
       "time" : {
-        "start" : 1629986171431,
-        "stop" : 1629986201027,
-        "duration" : 29596
+        "start" : 1630571232502,
+        "stop" : 1630571245199,
+        "duration" : 12697
       }
     } ]
   },
-  " test/Smoke/main.test.js Case #10 Change language (RU) on main page" : {
+  " test\\Smoke\\header.test.js Case #2 Go to Profile page from User menu" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -104,16 +104,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1f8145e0a69c81f",
+      "uid" : "87b78d84d3006244",
       "status" : "passed",
       "time" : {
-        "start" : 1629986163377,
-        "stop" : 1629986171430,
-        "duration" : 8053
+        "start" : 1630571194202,
+        "stop" : 1630571205476,
+        "duration" : 11274
       }
     } ]
   },
-  " test/Smoke/main.test.js case #6 Using search on main page by product description" : {
+  " test\\Smoke\\main.test.js case #7 Using search on main page by product description" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -123,16 +123,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9486470936a82236",
+      "uid" : "d318d6a9c8caa272",
       "status" : "passed",
       "time" : {
-        "start" : 1629986131566,
-        "stop" : 1629986139892,
-        "duration" : 8326
+        "start" : 1630571281381,
+        "stop" : 1630571288317,
+        "duration" : 6936
       }
     } ]
   },
-  " test/Smoke/header.test.js Case #3 Logout from User menu" : {
+  " test\\Smoke\\main.test.js Case #9 Change language (UA) on main page" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -142,16 +142,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "41c0d32377ed223e",
+      "uid" : "4a260cedb5c50d97",
       "status" : "passed",
       "time" : {
-        "start" : 1629986097804,
-        "stop" : 1629986107866,
-        "duration" : 10062
+        "start" : 1630571295665,
+        "stop" : 1630571303884,
+        "duration" : 8219
       }
     } ]
   },
-  " test/Smoke/main.test.js case #14 Remove all products from the cart" : {
+  " test\\Smoke\\docs-group.test.js Case #4 Edit Group in Docs Groups" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -161,16 +161,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0825ff30db75a",
+      "uid" : "415d2b9c86c0a316",
       "status" : "passed",
       "time" : {
-        "start" : 1629986201027,
-        "stop" : 1629986217137,
-        "duration" : 16110
+        "start" : 1630571218406,
+        "stop" : 1630571232485,
+        "duration" : 14079
       }
     } ]
   },
-  " test/Smoke/main.test.js Case #1 Login as user and logout" : {
+  " test\\Smoke\\main.test.js Case #1 Login as user and logout" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -180,16 +180,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7992c95a98588127",
+      "uid" : "f0180bd2abbec408",
       "status" : "passed",
       "time" : {
-        "start" : 1629986078579,
-        "stop" : 1629986090901,
-        "duration" : 12322
+        "start" : 1630571218186,
+        "stop" : 1630571232501,
+        "duration" : 14315
       }
     } ]
   },
-  " test/Smoke/main.test.js case #8 Using search on main page by product description" : {
+  " test\\Smoke\\header.test.js Case #1 Click on User menu" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -199,16 +199,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f039454ea4fbf91a",
+      "uid" : "adb3030948797342",
       "status" : "passed",
       "time" : {
-        "start" : 1629986147439,
-        "stop" : 1629986155681,
-        "duration" : 8242
+        "start" : 1630571185865,
+        "stop" : 1630571194201,
+        "duration" : 8336
       }
     } ]
   },
-  " test/Smoke/main.test.js case #15 Remove product from the cart" : {
+  " test\\Smoke\\main.test.js case #5 Using search on main page by product code" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -218,16 +218,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d7266390ead859eb",
+      "uid" : "d86f1712805adc98",
       "status" : "passed",
       "time" : {
-        "start" : 1629986217139,
-        "stop" : 1629986236472,
-        "duration" : 19333
+        "start" : 1630571266223,
+        "stop" : 1630571273729,
+        "duration" : 7506
       }
     } ]
   },
-  " test/Smoke/main.test.js case #5 Using search on main page by product code" : {
+  " test\\Smoke\\main.test.js case #8 Using search on main page by product description" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -237,16 +237,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5d227535311452f9",
+      "uid" : "b6c18d0b7fbfbb32",
       "status" : "passed",
       "time" : {
-        "start" : 1629986123408,
-        "stop" : 1629986131566,
-        "duration" : 8158
+        "start" : 1630571288317,
+        "stop" : 1630571295664,
+        "duration" : 7347
       }
     } ]
   },
-  " test/Smoke/main.test.js Case #2 Using search on main page" : {
+  " test\\Smoke\\main.test.js Case #10 Change language (RU) on main page" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -256,16 +256,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ceb22dfe5a966376",
+      "uid" : "8eba22dd272fd759",
       "status" : "passed",
       "time" : {
-        "start" : 1629986090902,
-        "stop" : 1629986100622,
-        "duration" : 9720
+        "start" : 1630571303884,
+        "stop" : 1630571312255,
+        "duration" : 8371
       }
     } ]
   },
-  " test/Smoke/header.test.js Case #1 Click on User menu" : {
+  " test\\Smoke\\main.test.js case #6 Using search on main page by product description" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -275,16 +275,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "955e34e811b69f14",
+      "uid" : "df3aa86e4e92d087",
       "status" : "passed",
       "time" : {
-        "start" : 1629986078119,
-        "stop" : 1629986087072,
-        "duration" : 8953
+        "start" : 1630571273729,
+        "stop" : 1630571281381,
+        "duration" : 7652
       }
     } ]
   },
-  " test/Smoke/main.test.js case #7 Using search on main page by product description" : {
+  " test\\Smoke\\docs-group.test.js Case #5 Mixed Cases #2, #3, #4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -294,16 +294,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8d6b05486433a14",
+      "uid" : "1ce83dad48a610e9",
       "status" : "passed",
       "time" : {
-        "start" : 1629986139892,
-        "stop" : 1629986147438,
-        "duration" : 7546
+        "start" : 1630571232485,
+        "stop" : 1630571252173,
+        "duration" : 19688
       }
     } ]
   },
-  " test/Smoke/main.test.js case #4 Using search on main page" : {
+  " test\\Smoke\\main.test.js case #14 Remove all products from the cart" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -313,12 +313,107 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdb5dc445ee8a129",
+      "uid" : "7352cda5d2e57835",
       "status" : "passed",
       "time" : {
-        "start" : 1629986109491,
-        "stop" : 1629986123408,
-        "duration" : 13917
+        "start" : 1630571327117,
+        "stop" : 1630571345876,
+        "duration" : 18759
+      }
+    } ]
+  },
+  " test\\Smoke\\main.test.js case #4 Using search on main page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e5cda812a98f4e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571254044,
+        "stop" : 1630571266222,
+        "duration" : 12178
+      }
+    } ]
+  },
+  " test\\Smoke\\main.test.js case #13 Add the product to the cart" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "457108ad78cceb04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571312256,
+        "stop" : 1630571327117,
+        "duration" : 14861
+      }
+    } ]
+  },
+  " test\\Smoke\\header.test.js Case #3 Logout from User menu" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47653ceb3317956d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571205476,
+        "stop" : 1630571218174,
+        "duration" : 12698
+      }
+    } ]
+  },
+  " test\\Smoke\\main.test.js Case #3 Using search on main page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce3ab66b7ec4aa60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571245200,
+        "stop" : 1630571254043,
+        "duration" : 8843
+      }
+    } ]
+  },
+  " test\\Smoke\\docs-group.test.js Case #3 Add new Group in Docs Groups" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d66d8fc90921cecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571204717,
+        "stop" : 1630571218406,
+        "duration" : 13689
       }
     } ]
   }

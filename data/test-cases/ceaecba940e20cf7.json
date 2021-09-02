@@ -1,0 +1,67 @@
+{
+  "uid" : "ceaecba940e20cf7",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "fullName" : "Case #2 Go to Profile page from User menu",
+  "historyId" : " test\\Smoke\\header.test.js Case #2 Go to Profile page from User menu",
+  "time" : {
+    "start" : 1630569812290,
+    "stop" : 1630569825037,
+    "duration" : 12747
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "624cbc60de389c1a",
+      "name" : "screenshot",
+      "source" : "624cbc60de389c1a.png",
+      "type" : "image/png",
+      "size" : 130034
+    }, {
+      "uid" : "8f94019cfef6bedd",
+      "name" : "stdout",
+      "source" : "8f94019cfef6bedd.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "f94900316ee26d90",
+      "name" : "stdout",
+      "source" : "f94900316ee26d90.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\header.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ceaecba940e20cf7.json",
+  "parameterValues" : [ ]
+}

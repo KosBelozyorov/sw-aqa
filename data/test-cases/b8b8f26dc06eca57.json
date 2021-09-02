@@ -1,0 +1,67 @@
+{
+  "uid" : "b8b8f26dc06eca57",
+  "name" : "Case #9 Change language (UA) on main page",
+  "fullName" : "Case #9 Change language (UA) on main page",
+  "historyId" : " test\\Smoke\\main.test.js Case #9 Change language (UA) on main page",
+  "time" : {
+    "start" : 1630567035039,
+    "stop" : 1630567042748,
+    "duration" : 7709
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd91a781a7e66dc2",
+      "name" : "screenshot",
+      "source" : "bd91a781a7e66dc2.png",
+      "type" : "image/png",
+      "size" : 303089
+    }, {
+      "uid" : "88d7beec6e8df368",
+      "name" : "stdout",
+      "source" : "88d7beec6e8df368.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "9f8601b65ac92db6",
+      "name" : "stdout",
+      "source" : "9f8601b65ac92db6.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8b8f26dc06eca57.json",
+  "parameterValues" : [ ]
+}

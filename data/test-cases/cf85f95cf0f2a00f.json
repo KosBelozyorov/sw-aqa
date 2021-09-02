@@ -1,0 +1,73 @@
+{
+  "uid" : "cf85f95cf0f2a00f",
+  "name" : "case #7 Using search on main page by product description",
+  "fullName" : "case #7 Using search on main page by product description",
+  "historyId" : " test\\Smoke\\main.test.js case #7 Using search on main page by product description",
+  "time" : {
+    "start" : 1630570694922,
+    "stop" : 1630570701610,
+    "duration" : 6688
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86636d001693faa",
+      "name" : "screenshot",
+      "source" : "86636d001693faa.png",
+      "type" : "image/png",
+      "size" : 315049
+    }, {
+      "uid" : "f75ad105efe67b1a",
+      "name" : "stdout",
+      "source" : "f75ad105efe67b1a.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "d9cb22cce5a6fed0",
+      "name" : "stdout",
+      "source" : "d9cb22cce5a6fed0.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "a754fed0e781f489",
+      "name" : "stdout",
+      "source" : "a754fed0e781f489.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf85f95cf0f2a00f.json",
+  "parameterValues" : [ ]
+}

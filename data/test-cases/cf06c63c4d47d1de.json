@@ -1,0 +1,85 @@
+{
+  "uid" : "cf06c63c4d47d1de",
+  "name" : "case #6 Using search on main page by product description",
+  "fullName" : "case #6 Using search on main page by product description",
+  "historyId" : " test\\Smoke\\main.test.js case #6 Using search on main page by product description",
+  "time" : {
+    "start" : 1630570687278,
+    "stop" : 1630570694923,
+    "duration" : 7645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c98b83243b270e55",
+      "name" : "screenshot",
+      "source" : "c98b83243b270e55.png",
+      "type" : "image/png",
+      "size" : 340836
+    }, {
+      "uid" : "26181cd1e20f1a91",
+      "name" : "stdout",
+      "source" : "26181cd1e20f1a91.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "f6acd497e5b2a8c0",
+      "name" : "stdout",
+      "source" : "f6acd497e5b2a8c0.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "dfb15328df33d105",
+      "name" : "stdout",
+      "source" : "dfb15328df33d105.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "51b4b162b7856159",
+      "name" : "stdout",
+      "source" : "51b4b162b7856159.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "a827ba4d3975b93b",
+      "name" : "stdout",
+      "source" : "a827ba4d3975b93b.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf06c63c4d47d1de.json",
+  "parameterValues" : [ ]
+}

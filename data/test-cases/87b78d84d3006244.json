@@ -1,0 +1,110 @@
+{
+  "uid" : "87b78d84d3006244",
+  "name" : "Case #2 Go to Profile page from User menu",
+  "fullName" : "Case #2 Go to Profile page from User menu",
+  "historyId" : " test\\Smoke\\header.test.js Case #2 Go to Profile page from User menu",
+  "time" : {
+    "start" : 1630571194202,
+    "stop" : 1630571205476,
+    "duration" : 11274
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "624cbc60de389c1a",
+      "name" : "screenshot",
+      "source" : "624cbc60de389c1a.png",
+      "type" : "image/png",
+      "size" : 130034
+    }, {
+      "uid" : "da9392ffd7ee53c0",
+      "name" : "stdout",
+      "source" : "da9392ffd7ee53c0.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "a8dbd2099ad9e8bb",
+      "name" : "stdout",
+      "source" : "a8dbd2099ad9e8bb.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\header.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abaa2b22a650915e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571169191,
+        "stop" : 1630571177674,
+        "duration" : 8483
+      }
+    }, {
+      "uid" : "26cba27827f19666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570644875,
+        "stop" : 1630570657234,
+        "duration" : 12359
+      }
+    }, {
+      "uid" : "d80a4eab2593b4e8",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - page.waitForNavigation at framework\\pages\\mainPage\\index.js:15:21\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  - page.waitForNavigation at framework\\pages\\mainPage\\index.js:15:21\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  -  at <unknown>\n  - page.waitForLoadState at framework\\pages\\headerPage\\index.js:44:23\n  -  at <unknown>\n  -  at <unknown>\n\npage.waitForLoadState: Navigation failed because page was closed!\n=========================== logs ===========================\n  \"domcontentloaded\" event fired\n  \"load\" event fired\n============================================================",
+      "time" : {
+        "start" : 1630570593649,
+        "stop" : 1630570627077,
+        "duration" : 33428
+      }
+    }, {
+      "uid" : "ceaecba940e20cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569812290,
+        "stop" : 1630569825037,
+        "duration" : 12747
+      }
+    }, {
+      "uid" : "af4520e6453916a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630566944267,
+        "stop" : 1630566956821,
+        "duration" : 12554
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87b78d84d3006244.json",
+  "parameterValues" : [ ]
+}

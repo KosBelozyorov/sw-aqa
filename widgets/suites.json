@@ -1,8 +1,8 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
-    "uid" : "29a378ee1220ae1b756c81028995b6fb",
-    "name" : "test/Smoke/main.test.js",
+    "uid" : "841fec43c0687071f856bdc3482206bd",
+    "name" : "test\\Smoke\\main.test.js",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,19 @@
       "total" : 14
     }
   }, {
-    "uid" : "a208e8e61db4444cffec39ab8a52e110",
-    "name" : "test/Smoke/header.test.js",
+    "uid" : "0f4adf06a5d649167bc2ced10383dc0d",
+    "name" : "test\\Smoke\\docs-group.test.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "84e0178a4b0a7ca36d421690732b8c2e",
+    "name" : "test\\Smoke\\header.test.js",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

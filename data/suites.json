@@ -2,233 +2,302 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "test/Smoke/header.test.js",
+    "name" : "test\\Smoke\\docs-group.test.js",
     "children" : [ {
-      "name" : "Case #1 Click on User menu",
-      "uid" : "955e34e811b69f14",
-      "parentUid" : "a208e8e61db4444cffec39ab8a52e110",
+      "name" : "Case #1 Click on Docs Group",
+      "uid" : "851860c0c9d3efd1",
+      "parentUid" : "0f4adf06a5d649167bc2ced10383dc0d",
       "status" : "passed",
       "time" : {
-        "start" : 1629986078119,
-        "stop" : 1629986087072,
-        "duration" : 8953
+        "start" : 1630571185084,
+        "stop" : 1630571195511,
+        "duration" : 10427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Case #2 Click [Add new Group] button in Docs Groups",
+      "uid" : "760b07187e8b26e2",
+      "parentUid" : "0f4adf06a5d649167bc2ced10383dc0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571195511,
+        "stop" : 1630571204716,
+        "duration" : 9205
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Case #3 Add new Group in Docs Groups",
+      "uid" : "d66d8fc90921cecc",
+      "parentUid" : "0f4adf06a5d649167bc2ced10383dc0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571204717,
+        "stop" : 1630571218406,
+        "duration" : 13689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Case #4 Edit Group in Docs Groups",
+      "uid" : "415d2b9c86c0a316",
+      "parentUid" : "0f4adf06a5d649167bc2ced10383dc0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571218406,
+        "stop" : 1630571232485,
+        "duration" : 14079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Case #5 Mixed Cases #2, #3, #4",
+      "uid" : "1ce83dad48a610e9",
+      "parentUid" : "0f4adf06a5d649167bc2ced10383dc0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571232485,
+        "stop" : 1630571252173,
+        "duration" : 19688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0f4adf06a5d649167bc2ced10383dc0d"
+  }, {
+    "name" : "test\\Smoke\\header.test.js",
+    "children" : [ {
+      "name" : "Case #1 Click on User menu",
+      "uid" : "adb3030948797342",
+      "parentUid" : "84e0178a4b0a7ca36d421690732b8c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630571185865,
+        "stop" : 1630571194201,
+        "duration" : 8336
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #2 Go to Profile page from User menu",
-      "uid" : "93b417c21e58fca",
-      "parentUid" : "a208e8e61db4444cffec39ab8a52e110",
+      "uid" : "87b78d84d3006244",
+      "parentUid" : "84e0178a4b0a7ca36d421690732b8c2e",
       "status" : "passed",
       "time" : {
-        "start" : 1629986087073,
-        "stop" : 1629986097804,
-        "duration" : 10731
+        "start" : 1630571194202,
+        "stop" : 1630571205476,
+        "duration" : 11274
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #3 Logout from User menu",
-      "uid" : "41c0d32377ed223e",
-      "parentUid" : "a208e8e61db4444cffec39ab8a52e110",
+      "uid" : "47653ceb3317956d",
+      "parentUid" : "84e0178a4b0a7ca36d421690732b8c2e",
       "status" : "passed",
       "time" : {
-        "start" : 1629986097804,
-        "stop" : 1629986107866,
-        "duration" : 10062
+        "start" : 1630571205476,
+        "stop" : 1630571218174,
+        "duration" : 12698
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "a208e8e61db4444cffec39ab8a52e110"
+    "uid" : "84e0178a4b0a7ca36d421690732b8c2e"
   }, {
-    "name" : "test/Smoke/main.test.js",
+    "name" : "test\\Smoke\\main.test.js",
     "children" : [ {
       "name" : "Case #1 Login as user and logout",
-      "uid" : "7992c95a98588127",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "f0180bd2abbec408",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986078579,
-        "stop" : 1629986090901,
-        "duration" : 12322
+        "start" : 1630571218186,
+        "stop" : 1630571232501,
+        "duration" : 14315
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #2 Using search on main page",
-      "uid" : "ceb22dfe5a966376",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "b63e8c7c4e2f156f",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986090902,
-        "stop" : 1629986100622,
-        "duration" : 9720
+        "start" : 1630571232502,
+        "stop" : 1630571245199,
+        "duration" : 12697
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #3 Using search on main page",
-      "uid" : "1917d08905885479",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "ce3ab66b7ec4aa60",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986100622,
-        "stop" : 1629986109491,
-        "duration" : 8869
+        "start" : 1630571245200,
+        "stop" : 1630571254043,
+        "duration" : 8843
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #4 Using search on main page",
-      "uid" : "fdb5dc445ee8a129",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "7e5cda812a98f4e3",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986109491,
-        "stop" : 1629986123408,
-        "duration" : 13917
+        "start" : 1630571254044,
+        "stop" : 1630571266222,
+        "duration" : 12178
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #5 Using search on main page by product code",
-      "uid" : "5d227535311452f9",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "d86f1712805adc98",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986123408,
-        "stop" : 1629986131566,
-        "duration" : 8158
+        "start" : 1630571266223,
+        "stop" : 1630571273729,
+        "duration" : 7506
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #6 Using search on main page by product description",
-      "uid" : "9486470936a82236",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "df3aa86e4e92d087",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986131566,
-        "stop" : 1629986139892,
-        "duration" : 8326
+        "start" : 1630571273729,
+        "stop" : 1630571281381,
+        "duration" : 7652
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #7 Using search on main page by product description",
-      "uid" : "d8d6b05486433a14",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "d318d6a9c8caa272",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986139892,
-        "stop" : 1629986147438,
-        "duration" : 7546
+        "start" : 1630571281381,
+        "stop" : 1630571288317,
+        "duration" : 6936
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #8 Using search on main page by product description",
-      "uid" : "f039454ea4fbf91a",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "b6c18d0b7fbfbb32",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986147439,
-        "stop" : 1629986155681,
-        "duration" : 8242
+        "start" : 1630571288317,
+        "stop" : 1630571295664,
+        "duration" : 7347
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #9 Change language (UA) on main page",
-      "uid" : "4423ae24dced9b09",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "4a260cedb5c50d97",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986155681,
-        "stop" : 1629986163377,
-        "duration" : 7696
+        "start" : 1630571295665,
+        "stop" : 1630571303884,
+        "duration" : 8219
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Case #10 Change language (RU) on main page",
-      "uid" : "a1f8145e0a69c81f",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "8eba22dd272fd759",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986163377,
-        "stop" : 1629986171430,
-        "duration" : 8053
+        "start" : 1630571303884,
+        "stop" : 1630571312255,
+        "duration" : 8371
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #13 Add the product to the cart",
-      "uid" : "ef204e2aedc7b1b",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "457108ad78cceb04",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986171431,
-        "stop" : 1629986201027,
-        "duration" : 29596
+        "start" : 1630571312256,
+        "stop" : 1630571327117,
+        "duration" : 14861
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #14 Remove all products from the cart",
-      "uid" : "c0825ff30db75a",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "7352cda5d2e57835",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986201027,
-        "stop" : 1629986217137,
-        "duration" : 16110
+        "start" : 1630571327117,
+        "stop" : 1630571345876,
+        "duration" : 18759
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #15 Remove product from the cart",
-      "uid" : "d7266390ead859eb",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "7405da0c68cd8be2",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986217139,
-        "stop" : 1629986236472,
-        "duration" : 19333
+        "start" : 1630571345877,
+        "stop" : 1630571364507,
+        "duration" : 18630
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "case #16 Create order",
-      "uid" : "6debee5bb2d51eb1",
-      "parentUid" : "29a378ee1220ae1b756c81028995b6fb",
+      "uid" : "425a4fd745a90b01",
+      "parentUid" : "841fec43c0687071f856bdc3482206bd",
       "status" : "passed",
       "time" : {
-        "start" : 1629986236472,
-        "stop" : 1629986258281,
-        "duration" : 21809
+        "start" : 1630571364506,
+        "stop" : 1630571384919,
+        "duration" : 20413
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "29a378ee1220ae1b756c81028995b6fb"
+    "uid" : "841fec43c0687071f856bdc3482206bd"
   } ]
 }

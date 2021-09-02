@@ -1,0 +1,67 @@
+{
+  "uid" : "4278d616f89c8545",
+  "name" : "Case #2 Click [Add new Group] button in Docs Groups",
+  "fullName" : "Case #2 Click [Add new Group] button in Docs Groups",
+  "historyId" : " test\\Smoke\\docs-group.test.js Case #2 Click [Add new Group] button in Docs Groups",
+  "time" : {
+    "start" : 1630570593125,
+    "stop" : 1630570604730,
+    "duration" : 11605
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c22c0fe1880b7a58",
+      "name" : "screenshot",
+      "source" : "c22c0fe1880b7a58.png",
+      "type" : "image/png",
+      "size" : 108566
+    }, {
+      "uid" : "a35487d1fd68375a",
+      "name" : "stdout",
+      "source" : "a35487d1fd68375a.txt",
+      "type" : "text/plain",
+      "size" : 43
+    }, {
+      "uid" : "9984e9fc4a90f882",
+      "name" : "stdout",
+      "source" : "9984e9fc4a90f882.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\docs-group.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4278d616f89c8545.json",
+  "parameterValues" : [ ]
+}

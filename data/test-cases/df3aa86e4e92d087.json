@@ -1,0 +1,111 @@
+{
+  "uid" : "df3aa86e4e92d087",
+  "name" : "case #6 Using search on main page by product description",
+  "fullName" : "case #6 Using search on main page by product description",
+  "historyId" : " test\\Smoke\\main.test.js case #6 Using search on main page by product description",
+  "time" : {
+    "start" : 1630571273729,
+    "stop" : 1630571281381,
+    "duration" : 7652
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c98b83243b270e55",
+      "name" : "screenshot",
+      "source" : "c98b83243b270e55.png",
+      "type" : "image/png",
+      "size" : 340836
+    }, {
+      "uid" : "c3be255bb7be6157",
+      "name" : "stdout",
+      "source" : "c3be255bb7be6157.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "3c5587b7bf8ad1e6",
+      "name" : "stdout",
+      "source" : "3c5587b7bf8ad1e6.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "3415ac774e5c9ec7",
+      "name" : "stdout",
+      "source" : "3415ac774e5c9ec7.txt",
+      "type" : "text/plain",
+      "size" : 30
+    }, {
+      "uid" : "99a84180e4644105",
+      "name" : "stdout",
+      "source" : "99a84180e4644105.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "1a9c433d0eace14",
+      "name" : "stdout",
+      "source" : "1a9c433d0eace14.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "test\\Smoke\\main.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf06c63c4d47d1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630570687278,
+        "stop" : 1630570694923,
+        "duration" : 7645
+      }
+    }, {
+      "uid" : "a3d00744db28478e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630569881656,
+        "stop" : 1630569889260,
+        "duration" : 7604
+      }
+    }, {
+      "uid" : "e646e76caaf4dc74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630567013606,
+        "stop" : 1630567020926,
+        "duration" : 7320
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df3aa86e4e92d087.json",
+  "parameterValues" : [ ]
+}
