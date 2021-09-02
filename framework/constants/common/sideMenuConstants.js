@@ -9,7 +9,7 @@ const SIDE_MENU_PROMO_PAGE = 'ul#side-menu>li:nth-of-type(7)>a';
 const SIDE_MENU_NEWS_PAGE = 'ul#side-menu>li:nth-of-type(8)>a';
 const SIDE_MENU_BRANDS_PAGE = 'ul#side-menu>li:nth-of-type(9)>a';
 const SIDE_MENU_PROFILE_PAGE = 'ul#side-menu>li:nth-of-type(10)>a';
-const SIDE_MENU_LOGOUT = 'ul#side-menu>li:nth-of-type(11)>a';
+const SIDE_MENU_LOGOUT = 'ul#side-menu>li:nth-of-type(12)>a';
 const SIDE_MENU_ADMIN_DOCS = 'ul#side-menu>li:nth-of-type(6)>a';
 const SIDE_MENU_ADMIN_DOCS_PAGE =
   'ul.nav.nav-second-level.collapse.in>li:nth-of-type(1)>a';

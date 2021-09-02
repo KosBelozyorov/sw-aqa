@@ -154,10 +154,13 @@ class AdminDocsGroupsPage {
     const itemName = await clickedItemName.innerText();
     const groupTitleElement = await this.page.$('#form1 h3.box-title.m-b-0');
     const title = await groupTitleElement.innerText();
-    const result = title.toLowerCase().includes(itemName);
-    // console.log('itemName: ', typeof itemName);
-    // console.log('title', typeof title);
-    // console.log('result: ', title.toLowerCase().includes(itemName));
+    const result = title.toLowerCase().includes(itemName.toLowerCase());
+    console.log('itemName: ', itemName);
+    console.log('title: ', title);
+    console.log(
+      'result: ',
+      title.toLowerCase().includes(itemName.toLowerCase()),
+    );
 
     return result;
   }
@@ -190,8 +193,8 @@ class AdminDocsGroupsPage {
     console.log('inputUaValue: ', inputUaValue.length);
     console.log('inputRuValue: ', inputRuValue.length);
 
-    console.log('counterUaValue: ', typeof counterUaValue);
-    console.log('counterRuValue: ', typeof counterRuValue);
+    console.log('counterUaValue: ', counterUaValue);
+    console.log('counterRuValue: ', counterRuValue);
 
     if (
       +counterUaValue === inputUaValue.length &&
