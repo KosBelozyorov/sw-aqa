@@ -16,6 +16,11 @@ const EDITED_GROUP_NAME_INPUT_FIELD_UA =
   '#form-update input#docsgroups-name_ua';
 const EDITED_GROUP_NAME_INPUT_FIELD_RU =
   '#form-update input#docsgroups-name_ru';
+const EDITED_GROUP_TITLE = '#form1 h3.box-title.m-b-0';
+const EDITED_GROUP_NAME_INPUT_FIELD_UA_COUNTER =
+  '#form-update .field-docsgroups-name_ua .input-counter__val';
+const EDITED_GROUP_NAME_INPUT_FIELD_RU_COUNTER =
+  '#form-update .field-docsgroups-name_ru .input-counter__val';
 const GROUPS_LIST = 'div#nestable>ol';
 
 module.exports = {
@@ -27,6 +32,9 @@ module.exports = {
   GROUP_NAME_INPUT_FIELD_RU,
   EDITED_GROUP_NAME_INPUT_FIELD_UA,
   EDITED_GROUP_NAME_INPUT_FIELD_RU,
+  EDITED_GROUP_TITLE,
+  EDITED_GROUP_NAME_INPUT_FIELD_UA_COUNTER,
+  EDITED_GROUP_NAME_INPUT_FIELD_RU_COUNTER,
   SAVE_GROUP_BUTTON,
   GROUPS_LIST,
   SAVE_EDITED_GROUP_BUTTON,

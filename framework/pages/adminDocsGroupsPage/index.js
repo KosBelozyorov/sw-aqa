@@ -4,12 +4,14 @@ const {
   GROUP_NAME_INPUT_FIELD_RU,
   EDITED_GROUP_NAME_INPUT_FIELD_UA,
   EDITED_GROUP_NAME_INPUT_FIELD_RU,
+  EDITED_GROUP_TITLE,
+  EDITED_GROUP_NAME_INPUT_FIELD_UA_COUNTER,
+  EDITED_GROUP_NAME_INPUT_FIELD_RU_COUNTER,
   SAVE_GROUP_BUTTON,
   SAVE_EDITED_GROUP_BUTTON,
+  SELECTED_LANGUAGE_VALUE,
 } = require('../../constants');
-const {
-  getArrayOfElements,
-} = require('../../asserts/common/getArrayOfelements');
+const { getArrayOfElements } = require('../../asserts/common/getArrayElements');
 
 class AdminDocsGroupsPage {
   constructor(page) {
@@ -152,9 +154,11 @@ class AdminDocsGroupsPage {
 
     const clickedItemName = await this.page.$('.dd-item .dd-handle');
     const itemName = await clickedItemName.innerText();
+    const itemNameToLowerCase = await itemName.toLowerCase();
     const groupTitleElement = await this.page.$('#form1 h3.box-title.m-b-0');
     const title = await groupTitleElement.innerText();
-    const result = title.toLowerCase().includes(itemName.toLowerCase());
+    const titleToLowerCase = await title.toLowerCase();
+    const result = titleToLowerCase.includes(itemNameToLowerCase);
     console.log('itemName: ', itemName);
     console.log('title: ', title);
     console.log(
@@ -165,25 +169,63 @@ class AdminDocsGroupsPage {
     return result;
   }
 
+  async checkLanguageOfEditedGroupName() {
+    await Promise.all([
+      await this.page.waitForSelector(SELECTED_LANGUAGE_VALUE),
+      await this.page.waitForSelector(EDITED_GROUP_TITLE),
+      await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_UA),
+      await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_RU),
+    ]);
+
+    const lang = await this.page.$(SELECTED_LANGUAGE_VALUE);
+
+    const selectedLang = await lang.innerText();
+    const editedGroupTitle = await this.page.$(EDITED_GROUP_TITLE);
+    const editedGroupNameFromInputUa = await this.page.$(
+      EDITED_GROUP_NAME_INPUT_FIELD_UA,
+    );
+
+    const editedGroupNameFromInputRu = await this.page.$(
+      EDITED_GROUP_NAME_INPUT_FIELD_RU,
+    );
+
+    let itemName;
+
+    if (selectedLang === 'UA') {
+      itemName = await editedGroupNameFromInputUa.inputValue();
+    }
+
+    if (selectedLang === 'RU') {
+      itemName = await editedGroupNameFromInputRu.inputValue();
+    }
+
+    const itemNameToLowerCase = await itemName.toLowerCase();
+    console.log('itemNameToLowerCase value: ', itemNameToLowerCase);
+    const title = await editedGroupTitle.innerText();
+    const titleToLowerCase = await title.toLowerCase();
+    console.log('titleToLowerCase value: ', titleToLowerCase);
+
+    const result = titleToLowerCase.includes(itemNameToLowerCase);
+    console.log('result: ', result);
+
+    return result;
+  }
+
   async checkEditedGroupNameLength() {
     await Promise.all([
       await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_UA),
       await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_RU),
-      await this.page.waitForSelector(
-        '#form-update .field-docsgroups-name_ua .input-counter__val',
-      ),
-      await this.page.waitForSelector(
-        '#form-update .field-docsgroups-name_ru .input-counter__val',
-      ),
+      await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_UA_COUNTER),
+      await this.page.waitForSelector(EDITED_GROUP_NAME_INPUT_FIELD_RU_COUNTER),
     ]);
 
     const inputUa = await this.page.$(EDITED_GROUP_NAME_INPUT_FIELD_UA);
     const inputRu = await this.page.$(EDITED_GROUP_NAME_INPUT_FIELD_RU);
     const counterUa = await this.page.$(
-      '#form-update .field-docsgroups-name_ua .input-counter__val',
+      EDITED_GROUP_NAME_INPUT_FIELD_UA_COUNTER,
     );
     const counterRu = await this.page.$(
-      '#form-update .field-docsgroups-name_ru .input-counter__val',
+      EDITED_GROUP_NAME_INPUT_FIELD_RU_COUNTER,
     );
     const inputUaValue = await inputUa.inputValue();
     const inputRuValue = await inputRu.inputValue();

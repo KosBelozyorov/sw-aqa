@@ -35,10 +35,10 @@ test.beforeEach(async ({ page }) => {
   await page.goto(DEV_LOGIN_PAGE_URL);
 });
 
-test.afterEach(async ({ page, context }) => {
-  await context.close();
-  await page.close();
-});
+// test.afterEach(async ({ page, context }) => {
+//   await context.close();
+//   await page.close();
+// });
 
 test('Case #1 Login as user and logout', async ({ page }) => {
   const loginPage = new LoginPage(page);
@@ -268,7 +268,7 @@ test('case #16 Create order', async ({ page }) => {
   );
 
   // await checkoutPage.getCheckout();
-  // expect(await checkoutPage.getCheckout()).toContain(
-  //   'https://b2b-dev2.sanwell.biz/orders/view?id=',
-  // );
+  expect(await checkoutPage.getCheckout()).toContain(
+    'https://b2b-dev2.sanwell.biz/orders/view?id=',
+  );
 });

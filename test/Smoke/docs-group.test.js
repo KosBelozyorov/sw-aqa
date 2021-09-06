@@ -29,10 +29,10 @@ test.beforeEach(async ({ page }) => {
   await page.goto(DEV_LOGIN_PAGE_URL);
 });
 
-test.afterEach(async ({ page, context }) => {
-  await context.close();
-  await page.close();
-});
+// test.afterEach(async ({ page, context }) => {
+//   await context.close();
+//   await page.close();
+// });
 
 test('Case #1 Click on Docs Group', async ({ page }) => {
   const loginPage = new LoginPage(page);
@@ -94,6 +94,9 @@ test('Case #4 Edit Group in Docs Groups', async ({ page }) => {
   await sideMenuPage.gotoAdminDocsGroupPage();
   await adminDocsGroupsPage.clickOnAddNewGroupButton();
   await adminDocsGroupsPage.clickEditGroupButton();
+  expect(
+    await adminDocsGroupsPage.checkLanguageOfEditedGroupName(),
+  ).toBeTruthy();
   expect(await adminDocsGroupsPage.isEditedGroup()).toBeTruthy();
   expect(await adminDocsGroupsPage.checkEditedGroupNameLength()).toBeTruthy();
   expect(

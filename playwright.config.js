@@ -15,7 +15,7 @@ const config = {
   // workers: 1,
   testMatch: ['/test/**/*.test.js'],
   retries: 1, // count of retries of failing test
-  reporter: [['list'], ['experimental-allure-playwright']],
+  reporter: [['list'], ['allure-playwright']],
 };
 
 module.exports = config;

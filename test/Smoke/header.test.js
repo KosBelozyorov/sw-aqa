@@ -35,10 +35,10 @@ test.beforeEach(async ({ page }) => {
   await page.goto(DEV_LOGIN_PAGE_URL);
 });
 
-test.afterEach(async ({ page, context }) => {
-  await context.close();
-  await page.close();
-});
+// test.afterEach(async ({ page, context }) => {
+//   await context.close();
+//   await page.close();
+// });
 
 test('Case #1 Click on User menu', async ({ page }) => {
   const loginPage = new LoginPage(page);
