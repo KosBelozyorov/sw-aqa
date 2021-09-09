@@ -180,7 +180,7 @@ test('Case #10 Change language (RU) on main page', async ({ page }) => {
   expect(await mainPage.getMainPageTitleContent()).toContain('Главная панель');
 });
 
-test('case #12 Add the product to the cart', async ({ page }) => {
+test('case #11 Add the product to the cart', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const productPage = new ProductPage(page);
@@ -201,7 +201,55 @@ test('case #12 Add the product to the cart', async ({ page }) => {
   expect(await productPage.checkProductInCart()).toBeTruthy;
 });
 
-test('case #13 Add the product to the cart and check amount', async ({
+test('case #12 Add the product to the cart(change product amount)', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const productPage = new ProductPage(page);
+  const cartPage = new CartPage(page);
+
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+
+  await cartPage.clickOnCartButton();
+  await cartPage.clickOnRemoveAllProductsButton();
+
+  await mainPage.useSearch('', SEARCH_KEY_WORD.seventh);
+  await mainPage.clickOnProductFromSearchResult();
+
+  expect(await productPage.getProductPageUrl()).toEqual(
+    'https://b2b-dev2.sanwell.biz/catalog/5368',
+  );
+  await productPage.selectPackage(2);
+  expect(await productPage.checkAddedProductAmount()).toBeTruthy();
+});
+
+test('case #13 Add the product to the cart(change product amount)', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const productPage = new ProductPage(page);
+  const cartPage = new CartPage(page);
+
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+
+  await cartPage.clickOnCartButton();
+  await cartPage.clickOnRemoveAllProductsButton();
+
+  await mainPage.useSearch('', SEARCH_KEY_WORD.seventh);
+  await mainPage.clickOnProductFromSearchResult();
+
+  expect(await productPage.getProductPageUrl()).toEqual(
+    'https://b2b-dev2.sanwell.biz/catalog/5368',
+  );
+  await productPage.selectPackage(3);
+  expect(await productPage.checkAddedProductAmount()).toBeTruthy();
+});
+
+test('case #14 Add the product to the cart and check amount', async ({
   page,
 }) => {
   const loginPage = new LoginPage(page);
@@ -220,7 +268,7 @@ test('case #13 Add the product to the cart and check amount', async ({
   expect(await productPage.checkAddedProductAmount()).toBeTruthy();
 });
 
-test('case #14 Remove all products from the cart', async ({ page }) => {
+test('case #15 Remove all products from the cart', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const cartPage = new CartPage(page);
@@ -240,7 +288,7 @@ test('case #14 Remove all products from the cart', async ({ page }) => {
   expect(await cartPage.isCartEmpty()).toBeTruthy;
 });
 
-test('case #15 Remove product from the cart', async ({ page }) => {
+test('case #16 Remove product from the cart', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const cartPage = new CartPage(page);
@@ -260,7 +308,7 @@ test('case #15 Remove product from the cart', async ({ page }) => {
   expect(await cartPage.isCartEmpty()).toBeTruthy;
 });
 
-test('case #16 Create order', async ({ page }) => {
+test('case #17 Create order', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const productPage = new ProductPage(page);

@@ -16,6 +16,7 @@ const SEARCH_KEY_WORD = {
   fifth: '12026',
   sixth:
     'Новаторский дизайн и компактные размеры всего модельного ряда делают серию NOVA PARVA',
+  seventh: '42396',
 };
 
 const SEARCH_CATEGORY = {

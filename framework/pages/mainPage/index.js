@@ -57,11 +57,6 @@ class MainPage {
       }),
     ]);
 
-    // await this.page.click(SEARCH_FORM_INPUT);
-    // await this.page.fill(SEARCH_FORM_INPUT, keyword);
-    // await this.page.waitForSelector('ul.typeahead__list > li', {
-    //   timeout: 5000,
-    // });
     result = await this.page.$$('ul.typeahead__list > li');
     // eslint-disable-next-line no-console
     console.log('Quick searh result: ', await result.length);
