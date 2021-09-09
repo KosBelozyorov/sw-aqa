@@ -180,7 +180,7 @@ test('Case #10 Change language (RU) on main page', async ({ page }) => {
   expect(await mainPage.getMainPageTitleContent()).toContain('Главная панель');
 });
 
-test('case #13 Add the product to the cart', async ({ page }) => {
+test('case #12 Add the product to the cart', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const productPage = new ProductPage(page);
@@ -199,6 +199,25 @@ test('case #13 Add the product to the cart', async ({ page }) => {
 
   // eslint-disable-next-line no-unused-expressions
   expect(await productPage.checkProductInCart()).toBeTruthy;
+});
+
+test('case #13 Add the product to the cart and check amount', async ({
+  page,
+}) => {
+  const loginPage = new LoginPage(page);
+  const mainPage = new MainPage(page);
+  const productPage = new ProductPage(page);
+  const cartPage = new CartPage(page);
+
+  // await page.goto(DEV_LOGIN_PAGE_URL);
+  await loginPage.loginAsUser();
+  await cartPage.clickOnCartButton();
+  await cartPage.clickOnRemoveAllProductsButton();
+
+  await mainPage.useSearch(SEARCH_CATEGORY.first, SEARCH_KEY_WORD.fourth);
+  await mainPage.clickOnProductFromSearchResult();
+
+  expect(await productPage.checkAddedProductAmount()).toBeTruthy();
 });
 
 test('case #14 Remove all products from the cart', async ({ page }) => {
@@ -246,6 +265,7 @@ test('case #16 Create order', async ({ page }) => {
   const mainPage = new MainPage(page);
   const productPage = new ProductPage(page);
   const checkoutPage = new CheckoutPage(page);
+  const cartPage = new CartPage(page);
 
   // await page.goto(DEV_LOGIN_PAGE_URL);
   await loginPage.loginAsUser();
@@ -262,7 +282,7 @@ test('case #16 Create order', async ({ page }) => {
   // eslint-disable-next-line no-unused-expressions
   expect(await productPage.checkProductInCart()).toBeTruthy;
 
-  await productPage.clickOnCheckoutButton();
+  await cartPage.clickOnCheckoutButton();
   expect(await checkoutPage.getCheckoutPageUrl()).toEqual(
     DEV_CHECKOUT_PAGE_URL,
   );
