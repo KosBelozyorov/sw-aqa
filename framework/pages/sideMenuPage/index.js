@@ -132,7 +132,7 @@ class SideMenuPage {
 
   async logout() {
     await this.page.click(SIDE_MENU_LOGOUT);
-    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForLoadState('domcontentloaded');
 
     const pageUrl = await this.page.url();
 

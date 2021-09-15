@@ -1,6 +1,7 @@
 const { waits } = require('../../../lib');
 const {
   SEARCH_FORM_INPUT,
+  SEARCH_CATEGORY_BUTTON,
   MULTIPLES_FILTER,
   CHECKBOX_SEARCH_IN_PRODUCT_NAME,
 } = require('../../constants');
@@ -36,8 +37,11 @@ class MainPage {
   async useSearch(category = '', keyword) {
     let result = null;
 
-    await waits(this.page).waitVisibility('#search_groups');
-    await this.page.click('#search_groups');
+    // await waits(this.page).waitVisibility(
+    //   '.comboTreeInputWrapper #search_groups',
+    // );
+    await this.page.waitForSelector(SEARCH_CATEGORY_BUTTON);
+    await this.page.click(SEARCH_CATEGORY_BUTTON);
 
     if (category) {
       await Promise.all([

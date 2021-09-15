@@ -19,7 +19,7 @@ const {
 } = require('../../framework/constants');
 
 test.beforeEach(async ({ page }) => {
-  // interception of yandex metrica requests
+  // interception of yandex metric requests
   page.route('**', route => {
     const request = route.request();
     // console.log('request url: ', request.url());
@@ -40,7 +40,7 @@ test.beforeEach(async ({ page }) => {
 //   await page.close();
 // });
 
-test('Case #1 Login as user and logout', async ({ page }) => {
+test('Case #01 Login as user and logout', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const sideMenuPage = new SideMenuPage(page);
@@ -55,7 +55,7 @@ test('Case #1 Login as user and logout', async ({ page }) => {
   // await page.screenshot({ path: `logout_as_user_case_1.png` });
 });
 
-test('Case #2 Using search on main page', async ({ page }) => {
+test('Case #02 Using search on main page', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
 
@@ -68,7 +68,7 @@ test('Case #2 Using search on main page', async ({ page }) => {
   ).toBeTruthy;
 });
 
-test('Case #3 Using search on main page', async ({ page }) => {
+test('Case #03 Using search on main page', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
 
@@ -80,7 +80,7 @@ test('Case #3 Using search on main page', async ({ page }) => {
     .toBeTruthy;
 });
 
-test('case #4 Using search on main page', async ({ page }) => {
+test('case #04 Using search on main page', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
 
@@ -94,7 +94,7 @@ test('case #4 Using search on main page', async ({ page }) => {
   ).toBeTruthy;
 });
 
-test('case #5 Using search on main page by product code', async ({ page }) => {
+test('case #05 Using search on main page by product code', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
 
@@ -106,7 +106,7 @@ test('case #5 Using search on main page by product code', async ({ page }) => {
   expect(await mainPage.useSearch('', SEARCH_KEY_WORD.fifth)).toBeTruthy;
 });
 
-test('case #6 Using search on main page by product description', async ({
+test('case #06 Using search on main page by product description', async ({
   page,
 }) => {
   const loginPage = new LoginPage(page);
@@ -121,7 +121,7 @@ test('case #6 Using search on main page by product description', async ({
   expect(await mainPage.useSearch('', SEARCH_KEY_WORD.sixth)).toBeTruthy;
 });
 
-test('case #7 Using search on main page by product description', async ({
+test('case #07 Using search on main page by product description', async ({
   page,
 }) => {
   const loginPage = new LoginPage(page);
@@ -137,7 +137,7 @@ test('case #7 Using search on main page by product description', async ({
   ).toBeTruthy;
 });
 
-test('case #8 Using search on main page by product description', async ({
+test('case #08 Using search on main page by product description', async ({
   page,
 }) => {
   const loginPage = new LoginPage(page);
@@ -152,7 +152,7 @@ test('case #8 Using search on main page by product description', async ({
     .toBeTruthy;
 });
 
-test('Case #9 Change language (UA) on main page', async ({ page }) => {
+test('Case #09 Change language (UA) on main page', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const headerPage = new HeaderPage(page);

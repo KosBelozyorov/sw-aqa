@@ -40,7 +40,7 @@ test.beforeEach(async ({ page }) => {
 //   await page.close();
 // });
 
-test('Case #1 Click on User menu', async ({ page }) => {
+test('Case #01 Click on User menu', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const headerPage = new HeaderPage(page);
@@ -55,7 +55,7 @@ test('Case #1 Click on User menu', async ({ page }) => {
   expect(await headerPage.isUserMenuVisible()).toBeTruthy;
 });
 
-test('Case #2 Go to Profile page from User menu', async ({ page }) => {
+test('Case #02 Go to Profile page from User menu', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const mainPage = new MainPage(page);
   const headerPage = new HeaderPage(page);
@@ -68,10 +68,11 @@ test('Case #2 Go to Profile page from User menu', async ({ page }) => {
 
   await headerPage.clickUserMenu();
   await headerPage.gotoUserProfilePage();
-  expect(await profilePage.goToProfilePage()).toEqual(DEV_PROFILE_PAGE_URL);
+  // expect(await profilePage.goToProfilePage()).toEqual(DEV_PROFILE_PAGE_URL);
+  expect(await profilePage.isEmailCorrect()).toBeTruthy();
 });
 
-test('Case #3 Logout from User menu', async ({ page }) => {
+test('Case #03 Logout from User menu', async ({ page }) => {
   const loginPage = new LoginPage(page);
   // const mainPage = new MainPage(page);
   const headerPage = new HeaderPage(page);

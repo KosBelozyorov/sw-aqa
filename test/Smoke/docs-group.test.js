@@ -13,7 +13,7 @@ const {
 } = require('../../framework/constants');
 
 test.beforeEach(async ({ page }) => {
-  // interception of yandex metrica requests
+  // interception of yandex metric requests
   page.route('**', route => {
     const request = route.request();
     // console.log('request url: ', request.url());
@@ -34,7 +34,7 @@ test.beforeEach(async ({ page }) => {
 //   await page.close();
 // });
 
-test('Case #1 Click on Docs Group', async ({ page }) => {
+test('Case #01 Click on Docs Group', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const sideMenuPage = new SideMenuPage(page);
 
@@ -45,7 +45,7 @@ test('Case #1 Click on Docs Group', async ({ page }) => {
   );
 });
 
-test('Case #2 Click [Add new Group] button in Docs Groups', async ({
+test('Case #02 Click [Add new Group] button in Docs Groups @smoke', async ({
   page,
 }) => {
   const loginPage = new LoginPage(page);
@@ -60,7 +60,7 @@ test('Case #2 Click [Add new Group] button in Docs Groups', async ({
   expect(await adminDocsGroupsPage.isCounterMaxValue(200)).toBeTruthy();
 });
 
-test('Case #3 Add new Group in Docs Groups', async ({ page }) => {
+test('Case #03 Add new Group in Docs Groups @smoke', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const sideMenuPage = new SideMenuPage(page);
   const adminDocsGroupsPage = new AdminDocsGroupsPage(page);
@@ -84,7 +84,7 @@ test('Case #3 Add new Group in Docs Groups', async ({ page }) => {
   expect(await adminDocsGroupsPage.isCounterMaxValue(200)).toBeTruthy();
 });
 
-test('Case #4 Edit Group in Docs Groups', async ({ page }) => {
+test('Case #4 Edit Group in Docs Groups @smoke', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const sideMenuPage = new SideMenuPage(page);
   const adminDocsGroupsPage = new AdminDocsGroupsPage(page);
@@ -104,7 +104,7 @@ test('Case #4 Edit Group in Docs Groups', async ({ page }) => {
   ).toBeFalsy();
 });
 
-test('Case #5 Mixed Cases #2, #3, #4', async ({ page }) => {
+test('Case #5 Mixed Cases #2, #3, #4 @smoke', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const sideMenuPage = new SideMenuPage(page);
   const adminDocsGroupsPage = new AdminDocsGroupsPage(page);
