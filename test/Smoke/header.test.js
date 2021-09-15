@@ -10,7 +10,6 @@ const {
 const {
   DEV_LOGIN_PAGE_URL,
   DEV_MAIN_PAGE_URL,
-  DEV_PROFILE_PAGE_URL,
 } = require('../../framework/constants');
 
 test.beforeEach(async ({ page }) => {
